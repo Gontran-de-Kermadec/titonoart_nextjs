@@ -1,16 +1,49 @@
-html,
+/* html,
 body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
+} */
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
+/* a {
+	color: inherit;
+	text-decoration: none;
+} */
 
-* {
+/* * {
   box-sizing: border-box;
+}  */
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text&family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Staatliches&display=swap");
+*,
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+a {
+	text-decoration: none;
+	color: #000;
+}
+body {
+	/* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+		"Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+		sans-serif; */
+	text-align: center;
+	font-family: Tahoma, Verdana, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+		monospace;
+}
+h3 {
+	font-family: "Courgette", cursive;
+}
+p {
+	font-size: 1.2rem;
+	line-height: 2rem;
 }
