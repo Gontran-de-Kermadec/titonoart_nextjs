@@ -1,7 +1,7 @@
 // import headerStyle from "../style/Header.module.css";
 import headerCss from "../styles/Header.module.css";
 
-// import Icons from "./Icons";
+import Icons from "./Icons";
 import Link from "next/link";
 
 function Header() {
@@ -46,9 +46,9 @@ function Header() {
 									<li>Créations</li>
 								</a>
 							</Link>
-							{/* <li>
+							<li>
 								<Icons location="header" />
-							</li> */}
+							</li>
 						</ul>
 					</nav>
 				</div>
