@@ -1,29 +1,17 @@
-// import headerStyle from "../style/Header.module.css";
 import headerCss from "../styles/Header.module.css";
-
 import Icons from "./Icons";
 import Link from "next/link";
 
 function Header() {
 	const toggleMenu = () => {
 		document
-			// .querySelector(".header__small-screen-menu")
 			.querySelector(`.${headerCss.header__smallScreen__menu}`)
 			.classList.toggle(`${headerCss.visible}`);
-		// .classList.toggle("visible");
-		// console.log(
-		// 	document.querySelector(`.${headerStyle.header__smallScreen__menu}`)
-		// );
 	};
 	return (
 		<div>
 			<header role="banner" className={headerCss.header}>
-				{/* <div className="header__large-screen"> */}
 				<div className={headerCss.header__largeScreen}>
-					{/* <Link to="/" className={headerStyle.header__logo}>
-						<img src={Logo} alt="Logo de TiTonoArt" />
-					</Link> */}
-					{/* <div className={headerStyle.header__logo}> */}
 					<Link href="/" passHref>
 						<a href="replace" className={headerCss.header__logo}>
 							<img src="/images/logo.svg" alt="Logo de TiTonoArt" />
@@ -52,19 +40,14 @@ function Header() {
 						</ul>
 					</nav>
 				</div>
-				{/* <p className="header__slogan"> */}
 				<p className={headerCss.header__slogan}>
 					"Fûts de chêne français transformés en véritables oeuvres d'art"
 				</p>
-				{/* section consacrée au petits ecrans */}
-				{/* <div className="header__small-screen"> */}
 				<div className={headerCss.header__smallScreen}>
 					<Link href="/" passHref>
-						{/* <Link href="/" className="header__logo"> */}
 						<a href="replace" className={headerCss.header__logo}>
 							<svg
 								className={headerCss.mobile__svg}
-								// className="mobile__svg"
 								version="1.0"
 								xmlns="http://www.w3.org/2000/svg"
 								width="120"
@@ -205,19 +188,13 @@ l0 26 673 0 c459 0 685 -4 712 -11z m-3585 -671 c260 -370 474 -678 477 -685
 						</a>
 					</Link>
 					<div className={headerCss.mobile__lines} onClick={() => toggleMenu()}>
-						{/* <div className="mobile__lines" onClick={() => toggleMenu()}> */}
-						<div className={headerCss.line}></div>
-						<div className={headerCss.line}></div>
-						<div className={headerCss.line}></div>
-						{/* <div className="line"></div>
-						<div className="line"></div>
-						<div className="line"></div> */}
+						<div aria-hidden="true" className={headerCss.line}></div>
+						<div aria-hidden="true" className={headerCss.line}></div>
+						<div aria-hidden="true" className={headerCss.line}></div>
 					</div>
 					<div className={headerCss.header__smallScreen__menu}>
-						{/* <div className="header__small-screen-menu"> */}
 						<div
 							className={headerCss.header__smallScreen__menuClose}
-							// className="header__small-screen-menu--close"
 							onClick={() => toggleMenu()}
 						>
 							<svg
@@ -236,7 +213,6 @@ l0 26 673 0 c459 0 685 -4 712 -11z m-3585 -671 c260 -370 474 -678 477 -685
 							</svg>
 						</div>
 						<nav className={headerCss.header__smallScreen__menuNav}>
-							{/* <nav className="header__small-screen-menu--nav"> */}
 							<ul>
 								<Link href="/about" passHref>
 									<a href="replace">

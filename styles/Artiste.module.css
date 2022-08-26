@@ -1,6 +1,6 @@
-/* .artiste h2 {
-	margin: 3rem 0;
-} */
+.artiste h2 {
+	margin-bottom: 2rem;
+}
 .artiste__feature {
 	display: flex;
 	justify-content: space-around;
@@ -19,8 +19,11 @@
 	margin: 0.5rem 0;
 	font-weight: bolder;
 }
+/* .feature__img__container {
+	display: block;
+} */
 .feature__img {
-	width: 400px;
+	/* width: 400px; */
 	border-radius: 1rem;
 }
 /*mobile section*/
@@ -45,7 +48,7 @@
 	.feature__txt {
 		font-size: 1.2rem;
 	}
-	.feature__img {
+	/* .feature__img {
 		width: 300px;
-	}
+	} */
 }

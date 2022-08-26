@@ -2,10 +2,7 @@ import iconStyle from "../styles/Icons.module.css";
 import headerStyle from "../styles/Header.module.css";
 
 function Icons({ location }) {
-	console.log(location);
 	return (
-		// <div className="header__icons">
-		// <div className={location + "__icons"}>
 		<div className={headerStyle.header__icons}>
 			<a
 				href="https://www.instagram.com/titonoart/"
@@ -59,9 +56,13 @@ function Icons({ location }) {
 					></path>
 				</svg>
 				<div className={iconStyle.delivery__block}>
-					<div className={iconStyle.arrow + " " + iconStyle.arrow__outer}>
+					<div
+						aria-hidden="true"
+						className={iconStyle.arrow + " " + iconStyle.arrow__outer}
+					>
 						<div
-							className={iconStyle.arrow + " " + iconStyle.arrow__outer}
+							aria-hidden="true"
+							className={iconStyle.arrow + " " + iconStyle.arrow__inner}
 						></div>
 					</div>
 					<div>

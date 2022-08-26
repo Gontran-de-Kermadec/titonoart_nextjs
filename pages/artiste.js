@@ -1,4 +1,5 @@
 import artisteStyle from "../styles/Artiste.module.css";
+import Image from "next/image";
 
 function Artiste() {
 	return (
@@ -28,10 +29,11 @@ function Artiste() {
 						</p>
 					</div>
 					<div className={artisteStyle.feature__img__container}>
-						<img
-							className={artisteStyle.feature__img}
+						<Image
 							src="/images/artiste.jpg"
-							alt=""
+							width={400}
+							height={500}
+							className={artisteStyle.feature__img}
 						/>
 					</div>
 				</div>
@@ -50,10 +52,11 @@ function Artiste() {
 						</p>
 					</div>
 					<div className={artisteStyle.feature__img__container}>
-						<img
-							className={artisteStyle.feature__img}
+						<Image
 							src="/images/artiste1.jpg"
-							alt=""
+							width={400}
+							height={500}
+							className={artisteStyle.feature__img}
 						/>
 					</div>
 				</div>
@@ -68,10 +71,11 @@ function Artiste() {
 						</p>
 					</div>
 					<div className={artisteStyle.feature__img__container}>
-						<img
-							className={artisteStyle.feature__img}
+						<Image
 							src="/images/artiste2.jpg"
-							alt=""
+							width={400}
+							height={500}
+							className={artisteStyle.feature__img}
 						/>
 					</div>
 				</div>
@@ -86,10 +90,11 @@ function Artiste() {
 						</p>
 					</div>
 					<div className={artisteStyle.feature__img__container}>
-						<img
-							className={artisteStyle.feature__img}
+						<Image
 							src="/images/artiste3.jpg"
-							alt=""
+							width={400}
+							height={500}
+							className={artisteStyle.feature__img}
 						/>
 					</div>
 				</div>
@@ -108,10 +113,11 @@ function Artiste() {
 						</p>
 					</div>
 					<div className={artisteStyle.feature__img__container}>
-						<img
-							className={artisteStyle.feature__img}
+						<Image
 							src="/images/artiste4.jpg"
-							alt=""
+							width={400}
+							height={500}
+							className={artisteStyle.feature__img}
 						/>
 					</div>
 				</div>

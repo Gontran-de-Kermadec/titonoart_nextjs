@@ -1,8 +1,5 @@
 import Link from "next/link";
-
 import aboutStyle from "../styles/About.module.css";
-//import aboutMenu from "../images/about-menu.jpg";
-// import Footer from "./Footer";
 
 function About() {
 	return (
@@ -26,7 +23,6 @@ function About() {
 			</div>
 			<div>
 				<div className={aboutStyle.about__subsections}>
-					{/* <Link className="about__menu" to="/about/origin"> */}
 					<Link href="/about/origin" passHref>
 						<a href="replace" className={aboutStyle.about__menu}>
 							<h3>L'origine</h3>
@@ -69,7 +65,6 @@ function About() {
 								Notre démarche :<br />
 								Eco - responsable
 							</h3>
-
 							<div className={aboutStyle.about__menu__img}>
 								<img
 									className={aboutStyle.img4}
