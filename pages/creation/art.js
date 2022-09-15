@@ -1,6 +1,3 @@
-//import voilier from "../../images/voilier.jpg";
-// import terre from "../../images/terre.jpg";
-// import nature from "../../images/nature.jpg";
 import PrevNextNav from "../../components/PrevNextNav";
 import Next from "../../components/utils/Next";
 import CreationCard from "../../components/CreationCard";

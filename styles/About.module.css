@@ -2,7 +2,8 @@
 .about__introduction p {
 	margin: 1rem 6rem;
 }
-.about__introduction h2 {
+.about__introduction h1 {
+	font-size: 1.5rem;
 	margin-bottom: 2rem;
 }
 .about__menu {
@@ -89,9 +90,9 @@
 }
 .origin__team__container:nth-child(3) {
 	flex-direction: initial;
-	/* text-align: right; */
 }
 .origin__team__img {
+	position: relative;
 	width: 150px;
 	height: 150px;
 	align-self: center;
@@ -113,17 +114,21 @@
 }
 /*section a propos => support */
 .fut__support__img {
-	/* margin-bottom: 2rem;
-	width: 90vw; */
+	position: relative;
+	width: 35vw;
 	margin: 0 auto 2rem auto;
 }
 @media (max-width: 767px) {
 	.fut__support__img {
 		width: 90vw;
-		/* margin: 0 auto 2rem auto; */
 	}
 	.fut__support__img img {
 		width: 100%;
+	}
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+	.fut__support__img {
+		width: 65vw;
 	}
 }
 /*section a propos => valeur*/
@@ -166,7 +171,6 @@
 		display: initial;
 	}
 	.origin__team__img {
-		/* width: 150px; */
 		margin: 0 auto;
 	}
 	.origin__team__infos {

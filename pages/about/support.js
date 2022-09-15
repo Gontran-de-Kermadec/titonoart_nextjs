@@ -1,12 +1,9 @@
+import Image from "next/image";
 import PrevNextNav from "../../components/Prevnextnav";
-//import Next from "../utils/Next";
-//import Prev from "../utils/Prev";
-
+import myLoader from "../../components/utils/ImgLoader";
 import Next from "../../components/utils/Next";
 import Prev from "../../components/utils/Prev";
 import aboutStyle from "../../styles/About.module.css";
-
-//import fut_support from "../../images/fut_support.jpg";
 
 function Support() {
 	const infos = {
@@ -39,7 +36,15 @@ function Support() {
 						oublié, celui de tonnelier.
 					</p>
 					<div className={aboutStyle.fut__support__img}>
-						<img src="/images/fut_support.jpg" alt="fut" />
+						<Image
+							loader={myLoader}
+							width="100%"
+							height="100%"
+							layout="responsive"
+							objectFit="contain"
+							src="/images/fut_support.jpg"
+							alt="fut"
+						/>
 					</div>
 				</div>
 				<Next route="/about/valeurs" btnName="Nos valeurs" />

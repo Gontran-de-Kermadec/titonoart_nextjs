@@ -1,10 +1,8 @@
 import aboutStyle from "../../styles/About.module.css";
 import PrevNextNav from "../../components/Prevnextnav";
-
-// import PrevNextNav from "../Prevnextnav";
-// import delphine from "../../images/delphine.jpg";
-// import robin from "../../images/robin.jpg";
+import Image from "next/image";
 import Next from "../../components/utils/Next";
+import myLoader from "../../components/utils/ImgLoader";
 
 function Origin() {
 	const infos = {
@@ -73,7 +71,14 @@ function Origin() {
 						<h3>L'équipe</h3>
 						<div className={aboutStyle.origin__team__container}>
 							<div className={aboutStyle.origin__team__img}>
-								<img src="/images/delphine.jpg" alt="Portait Delphine" />
+								<Image
+									loader={myLoader}
+									width="80%"
+									height="100%"
+									layout="responsive"
+									src="/images/delphine.jpg"
+									alt="Portait Delphine"
+								/>
 							</div>
 							<div className={aboutStyle.origin__team__infos}>
 								<p className={aboutStyle.team__infos__name}>
@@ -90,7 +95,14 @@ function Origin() {
 						</div>
 						<div className={aboutStyle.origin__team__container}>
 							<div className={aboutStyle.origin__team__img}>
-								<img src="/images/robin.jpg" alt="Portait Robin" />
+								<Image
+									loader={myLoader}
+									width="80%"
+									height="100%"
+									layout="responsive"
+									src="/images/robin.jpg"
+									alt="Portait Robin"
+								/>
 							</div>
 							<div className={aboutStyle.origin__team__infos}>
 								<p className={aboutStyle.team__infos__name}>

@@ -1,4 +1,5 @@
-.artiste h2 {
+.artiste h1 {
+	font-size: 1.5rem;
 	margin-bottom: 2rem;
 }
 .artiste__feature {
@@ -19,11 +20,8 @@
 	margin: 0.5rem 0;
 	font-weight: bolder;
 }
-/* .feature__img__container {
-	display: block;
-} */
+
 .feature__img {
-	/* width: 400px; */
 	border-radius: 1rem;
 }
 /*mobile section*/
@@ -48,7 +46,4 @@
 	.feature__txt {
 		font-size: 1.2rem;
 	}
-	/* .feature__img {
-		width: 300px;
-	} */
 }

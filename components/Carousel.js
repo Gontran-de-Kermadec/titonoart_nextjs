@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import carouselStyle from "../styles/Carousel.module.css";
+
 function Carousel(props) {
 	const [slideIndex, setSlideIndex] = useState(0);
 	const nextSlide = () => {

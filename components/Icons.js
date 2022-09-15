@@ -41,7 +41,6 @@ function Icons({ location }) {
 			</a>
 			<div className={iconStyle.icon__delivery}>
 				<svg
-					aria-hidden="true"
 					focusable="false"
 					data-prefix="fas"
 					data-icon="truck"
@@ -56,12 +55,8 @@ function Icons({ location }) {
 					></path>
 				</svg>
 				<div className={iconStyle.delivery__block}>
-					<div
-						aria-hidden="true"
-						className={iconStyle.arrow + " " + iconStyle.arrow__outer}
-					>
+					<div className={iconStyle.arrow + " " + iconStyle.arrow__outer}>
 						<div
-							aria-hidden="true"
 							className={iconStyle.arrow + " " + iconStyle.arrow__inner}
 						></div>
 					</div>

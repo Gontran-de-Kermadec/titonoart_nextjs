@@ -1,14 +1,15 @@
 import artisteStyle from "../styles/Artiste.module.css";
+import myLoader from "../components/utils/ImgLoader";
 import Image from "next/image";
 
 function Artiste() {
 	return (
 		<div className={artisteStyle.artiste}>
-			<h2>
+			<h1>
 				Artiste illustrateur :
 				<br />
 				Robin Lepoutre
-			</h2>
+			</h1>
 			<p>
 				<em>
 					Son souhait : offrir une oeuvre artistique qui vous enchantera et qui
@@ -30,10 +31,12 @@ function Artiste() {
 					</div>
 					<div className={artisteStyle.feature__img__container}>
 						<Image
+							loader={myLoader}
 							src="/images/artiste.jpg"
 							width={400}
 							height={500}
 							className={artisteStyle.feature__img}
+							alt=""
 						/>
 					</div>
 				</div>
@@ -53,10 +56,12 @@ function Artiste() {
 					</div>
 					<div className={artisteStyle.feature__img__container}>
 						<Image
+							loader={myLoader}
 							src="/images/artiste1.jpg"
 							width={400}
 							height={500}
 							className={artisteStyle.feature__img}
+							alt=""
 						/>
 					</div>
 				</div>
@@ -72,10 +77,12 @@ function Artiste() {
 					</div>
 					<div className={artisteStyle.feature__img__container}>
 						<Image
+							loader={myLoader}
 							src="/images/artiste2.jpg"
 							width={400}
 							height={500}
 							className={artisteStyle.feature__img}
+							alt=""
 						/>
 					</div>
 				</div>
@@ -91,10 +98,12 @@ function Artiste() {
 					</div>
 					<div className={artisteStyle.feature__img__container}>
 						<Image
+							loader={myLoader}
 							src="/images/artiste3.jpg"
 							width={400}
 							height={500}
 							className={artisteStyle.feature__img}
+							alt=""
 						/>
 					</div>
 				</div>
@@ -114,10 +123,12 @@ function Artiste() {
 					</div>
 					<div className={artisteStyle.feature__img__container}>
 						<Image
+							loader={myLoader}
 							src="/images/artiste4.jpg"
 							width={400}
 							height={500}
 							className={artisteStyle.feature__img}
+							alt=""
 						/>
 					</div>
 				</div>

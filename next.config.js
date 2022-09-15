@@ -2,9 +2,14 @@
 const nextConfig = {
 	reactStrictMode: true,
 	trailingSlash: true,
-	i18n: {
-		locales: ["fr"],
-		defaultLocale: "fr",
+	// i18n: {
+	// 	locales: ["fr"],
+	// 	defaultLocale: "fr",
+	// },
+	images: {
+		//loader: "imgix",
+		loader: "custom",
+		//path: "/",
 	},
 };
 

@@ -1,5 +1,7 @@
 import Carousel from "./Carousel";
 import Loupe from "./utils/Loupe";
+import myLoader from "../components/utils/ImgLoader";
+import Image from "next/image";
 import creationStyle from "../styles/Creation.module.css";
 
 const CreationCard = (props) => {
@@ -42,6 +44,13 @@ const CreationCard = (props) => {
 				onTouchEnd={(e) => openCloseLightbox(e, "open")}
 			>
 				<img src={props.img} alt="tonneau décoré" />
+				{/* <Image
+					loader={myLoader}
+					src={props.img}
+					alt="tonneau décoré"
+					width={320}
+					height={400}
+				/> */}
 				<Loupe />
 			</figure>
 			<div

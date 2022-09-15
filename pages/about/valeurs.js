@@ -1,7 +1,3 @@
-// import PrevNextNav from "../Prevnextnav";
-// import Next from "../utils/Next";
-// import Prev from "../utils/Prev";
-
 import PrevNextNav from "../../components/Prevnextnav";
 
 import Next from "../../components/utils/Next";

@@ -1,11 +1,4 @@
-// import { Link } from "react-router-dom";
-// import plante from "../../images/plante.png";
-// import PrevNextNav from "../Prevnextnav";
-// import Prev from "../utils/Prev";
-
 import PrevNextNav from "../../components/Prevnextnav";
-
-//import Next from "../../components/utils/Next";
 import Prev from "../../components/utils/Prev";
 import aboutStyle from "../../styles/About.module.css";
 const Demarche = () => {

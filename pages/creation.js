@@ -1,11 +1,13 @@
 import Link from "next/link";
+// import myLoader from "../components/utils/ImgLoader";
+// import Image from "next/image";
 import creationStyle from "../styles/Creation.module.css";
 
 function Creation() {
 	return (
 		<div className={creationStyle.creation}>
 			<div className={creationStyle.creation__intro}>
-				<h2>Créations</h2>
+				<h1>Créations</h1>
 				<p>
 					Toutes nos créations sont des réalisations uniques qui nécessitent de
 					longues heures d’imagination & de travail. <br />
