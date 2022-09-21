@@ -1,6 +1,4 @@
 import Link from "next/link";
-// import myLoader from "../components/utils/ImgLoader";
-// import Image from "next/image";
 import creationStyle from "../styles/Creation.module.css";
 
 function Creation() {
@@ -53,6 +51,25 @@ function Creation() {
 								></img>
 							</figure>
 							<button>Bar</button>
+						</div>
+					</a>
+				</Link>
+				<Link href="/creation/upcycling" passHref>
+					<a href="replace">
+						<div className={creationStyle.creation__card}>
+							<figure>
+								<img
+									src="/images/upcycling.jpg"
+									onMouseEnter={(e) =>
+										(e.currentTarget.src = "/images/upcycling111.jpg")
+									}
+									onMouseLeave={(e) =>
+										(e.currentTarget.src = "/images/upcycling.jpg")
+									}
+									alt="tonneau upcycling"
+								></img>
+							</figure>
+							<button>Upcycling</button>
 						</div>
 					</a>
 				</Link>

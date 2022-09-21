@@ -8,7 +8,7 @@ import creationStyle from "../../styles/Creation.module.css";
 const Bar = () => {
 	const navigationInfos = {
 		direction: "both",
-		route: ["/creation/art", "/creation/deco"],
+		route: ["/creation/art", "/creation/upcycling"],
 		btnName: ["Art", "Déco"],
 		devis: true,
 	};
@@ -17,6 +17,9 @@ const Bar = () => {
 		"/images/bar/mini_fut/mini_fut1.jpg",
 		"/images/bar/mini_fut/mini_fut2.jpg",
 		"/images/bar/mini_fut/mini_fut3.jpg",
+		"/images/bar/mini_fut/mini_fut4.jpg",
+		"/images/bar/mini_fut/mini_fut5.jpg",
+		"/images/bar/mini_fut/mini_fut6.jpg",
 	];
 	const barArray = [
 		"/images/bar/bar/bar.jpg",
@@ -66,19 +69,24 @@ const Bar = () => {
 		"/images/bar/palm_tree/palm_tree2.jpg",
 		"/images/bar/palm_tree/palm_tree3.jpg",
 	];
+	const jasminArray = [
+		"/images/bar/jasmin/jasmin.jpg",
+		"/images/bar/jasmin/jasmin1.jpg",
+		"/images/bar/jasmin/jasmin2.jpg",
+		"/images/bar/jasmin/jasmin3.jpg",
+	];
 	return (
 		<div>
 			<div className={creationStyle.creation__subsection__intro}>
 				<p>
 					Chaque pièce est réalisée à la main dans l’atelier Ti Tono Art. Chaque
 					production est donc unique. Méticuleux et habile, Robin design et
-					fabrique une gamme de « coffres-forts » aux finitions soignées. Le
+					fabrique une gamme de « coffres-forts » aux finitions soignées. Le
 					bois est une matière où l’imperfection naturelle est source de plaisir
 					pour celui qui le travaille.
 				</p>
 			</div>
 			<div className={creationStyle.creation__subsection}>
-				{/* <div className="bar__container creation__subsection"> */}
 				<Prev route="/creation/art" btnName="Art" />
 				<div className={creationStyle.creation__subsection__allCards}>
 					<CreationCard
@@ -135,8 +143,14 @@ const Bar = () => {
 						futTitle="CF Palm Tree"
 						futAvailability="Acquis"
 					/>
+					<CreationCard
+						img="/images/jasmin.jpg"
+						imgArr={jasminArray}
+						futTitle="CF Jasmin"
+						futAvailability="Acquis"
+					/>
 				</div>
-				<Next route="/creation/deco" btnName="Déco" />
+				<Next route="/creation/upcycling" btnName="Upcycling" />
 			</div>
 			<div>
 				<a href="mailto:titonoart@gmail.com">

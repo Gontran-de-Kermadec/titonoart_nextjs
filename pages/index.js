@@ -10,7 +10,7 @@ function Home() {
 	return (
 		<div>
 			<div className={homeStyle.homepage}>
-				<h1>Déco & art sur tonneaux - Guadeloupe</h1>
+				<h1>Art & déco sur tonneaux - Guadeloupe</h1>
 				<Carousel imgs={imgArray} mode="auto" />
 				<p id={homeStyle.homepage__sentence}>
 					Décorez votre intérieur en faisant l’acquisition d’une œuvre

@@ -1,12 +1,3 @@
-// import papillon from "../../images/papillon1.jpg";
-// import lotus from "../../images/lotus.jpg";
-// import pirate from "../../images/pirate.jpg";
-// import roche from "../../images/roche.jpg";
-// import tortue from "../../images/tortue.jpg";
-// import PrevNextNav from "../Prevnextnav";
-// import CreationCard from "./CreationCard";
-// import Prev from "../utils/Prev";
-
 import PrevNextNav from "../../components/PrevNextNav";
 import Prev from "../../components/utils/Prev";
 import CreationCard from "../../components/CreationCard";
@@ -52,7 +43,6 @@ const Deco = () => {
 	];
 	return (
 		<div>
-			{/* <div className="deco__container creation__subsection"> */}
 			<div
 				className={
 					creationStyle.deco__container +
@@ -60,7 +50,7 @@ const Deco = () => {
 					creationStyle.creation__subsection
 				}
 			>
-				<Prev route="/creation/bar" btnName="Bar" />
+				<Prev route="/creation/upcycling" btnName="Upcycling" />
 				<div className={creationStyle.creation__subsection__allCards}>
 					<CreationCard
 						img="/images/papillon1.jpg"
