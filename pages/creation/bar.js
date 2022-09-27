@@ -8,7 +8,7 @@ import creationStyle from "../../styles/Creation.module.css";
 const Bar = () => {
 	const navigationInfos = {
 		direction: "both",
-		route: ["/creation/art", "/creation/upcycling"],
+		route: ["/creation/art", "/creation/deco"],
 		btnName: ["Art", "Déco"],
 		devis: true,
 	};
@@ -150,7 +150,7 @@ const Bar = () => {
 						futAvailability="Acquis"
 					/>
 				</div>
-				<Next route="/creation/upcycling" btnName="Upcycling" />
+				<Next route="/creation/deco" btnName="Déco" />
 			</div>
 			<div>
 				<a href="mailto:titonoart@gmail.com">

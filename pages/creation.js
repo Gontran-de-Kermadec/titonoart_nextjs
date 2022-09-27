@@ -54,25 +54,7 @@ function Creation() {
 						</div>
 					</a>
 				</Link>
-				<Link href="/creation/upcycling" passHref>
-					<a href="replace">
-						<div className={creationStyle.creation__card}>
-							<figure>
-								<img
-									src="/images/upcycling.jpg"
-									onMouseEnter={(e) =>
-										(e.currentTarget.src = "/images/upcycling111.jpg")
-									}
-									onMouseLeave={(e) =>
-										(e.currentTarget.src = "/images/upcycling.jpg")
-									}
-									alt="tonneau upcycling"
-								></img>
-							</figure>
-							<button>Upcycling</button>
-						</div>
-					</a>
-				</Link>
+
 				<Link href="/creation/deco" passHref>
 					<a href="replace">
 						<div className={creationStyle.creation__card}>
@@ -89,6 +71,25 @@ function Creation() {
 								></img>
 							</figure>
 							<button>Déco</button>
+						</div>
+					</a>
+				</Link>
+				<Link href="/creation/upcycling" passHref>
+					<a href="replace">
+						<div className={creationStyle.creation__card}>
+							<figure>
+								<img
+									src="/images/upcycling.jpg"
+									onMouseEnter={(e) =>
+										(e.currentTarget.src = "/images/upcycling111.jpg")
+									}
+									onMouseLeave={(e) =>
+										(e.currentTarget.src = "/images/upcycling.jpg")
+									}
+									alt="tonneau upcycling"
+								></img>
+							</figure>
+							<button>Upcycling</button>
 						</div>
 					</a>
 				</Link>

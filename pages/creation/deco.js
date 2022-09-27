@@ -1,14 +1,15 @@
 import PrevNextNav from "../../components/PrevNextNav";
 import Prev from "../../components/utils/Prev";
+import Next from "../../components/utils/Next";
 import CreationCard from "../../components/CreationCard";
 
 import creationStyle from "../../styles/Creation.module.css";
 
 const Deco = () => {
 	const navigationInfos = {
-		direction: "prev",
-		route: "/creation/bar",
-		btnName: "Bar",
+		direction: "both",
+		route: ["/creation/bar", "/creation/upcycling"],
+		btnName: ["Bar", "Upcycling"],
 		devis: true,
 	};
 	const papillonArray = [
@@ -63,7 +64,7 @@ const Deco = () => {
 					creationStyle.creation__subsection
 				}
 			>
-				<Prev route="/creation/upcycling" btnName="Upcycling" />
+				<Prev route="/creation/bar" btnName="Bar" />
 				<div className={creationStyle.creation__subsection__allCards}>
 					<CreationCard
 						img="/images/papillon1.jpg"
@@ -108,6 +109,7 @@ const Deco = () => {
 						futAvailability="Acquis"
 					/>
 				</div>
+				<Next route="/creation/upcycling" btnName="Upcycling" />
 			</div>
 			<div>
 				<a href="mailto:titonoart@gmail.com">

@@ -1,16 +1,16 @@
 import PrevNextNav from "../../components/PrevNextNav";
 import Prev from "../../components/utils/Prev";
-import Next from "../../components/utils/Next";
+// import Next from "../../components/utils/Next";
 import CreationCard from "../../components/CreationCard";
 
 import creationStyle from "../../styles/Creation.module.css";
 
 const Art = () => {
 	const navigationInfos = {
-		direction: "both",
-		route: "/creation/bar",
-		route: ["/creation/bar", "/creation/deco"],
-		btnName: ["Bar", "Déco"],
+		direction: "prev",
+		route: "/creation/deco",
+		// route: ["/creation/bar"/creation/deco"],
+		btnName: "Déco",
 		devis: true,
 	};
 	const sereniteArray = [
@@ -20,13 +20,6 @@ const Art = () => {
 		"/images/upcycling/serenite/serenite3.jpg",
 		"/images/upcycling/serenite/serenite4.jpg",
 	];
-	// const terreArray = [
-	// 	"/images/art__terre/terre.jpg",
-	// 	"/images/art__terre/terre1.jpg",
-	// 	"/images/art__terre/terre2.jpg",
-	// 	"/images/art__terre/terre3.jpg",
-	// 	"/images/art__terre/terre4.jpg",
-	// ];
 	return (
 		<div className={creationStyle.art__container}>
 			<div className={creationStyle.creation__subsection__intro}>
@@ -38,13 +31,12 @@ const Art = () => {
 				</p>
 			</div>
 			<div className={creationStyle.creation__subsection}>
-				<Prev route="/creation/bar" btnName="Bar" />
+				<Prev route="/creation/deco" btnName="Déco" />
 				<div className={creationStyle.creation__subsection__allCards}>
 					<CreationCard
 						img="/images/upcycling.jpg"
 						imgArr={sereniteArray}
 						futTitle={"Serenite"}
-						//futDate="Mai 2021"
 						futAvailability="Acquis"
 					/>
 					{/* <CreationCard
@@ -55,7 +47,7 @@ const Art = () => {
 						futAvailability="Disponible"
 					/> */}
 				</div>
-				<Next route="/creation/deco" btnName="Déco" />
+				<div></div>
 			</div>
 			<div>
 				<a href="mailto:titonoart@gmail.com">
