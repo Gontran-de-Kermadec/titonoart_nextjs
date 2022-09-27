@@ -41,6 +41,19 @@ const Deco = () => {
 		"/images/deco/tortue/tortue2.jpg",
 		"/images/deco/tortue/tortue3.jpg",
 	];
+	const voyageurArray = [
+		"/images/deco/voyageur/voyageur.jpg",
+		"/images/deco/voyageur/voyageur1.jpg",
+		"/images/deco/voyageur/voyageur2.jpg",
+		"/images/deco/voyageur/voyageur3.jpg",
+	];
+	const caribbeanPiratArray = [
+		"/images/deco/caribbean_pirat/caribbean_pirat.jpg",
+		"/images/deco/caribbean_pirat/caribbean_pirat1.jpg",
+		"/images/deco/caribbean_pirat/caribbean_pirat2.jpg",
+		"/images/deco/caribbean_pirat/caribbean_pirat3.jpg",
+		"/images/deco/caribbean_pirat/caribbean_pirat4.jpg",
+	];
 	return (
 		<div>
 			<div
@@ -80,6 +93,18 @@ const Deco = () => {
 						img="/images/tortue.jpg"
 						imgArr={tortueArray}
 						futTitle="Gocho-Etchea"
+						futAvailability="Acquis"
+					/>
+					<CreationCard
+						img="/images/voyageur.jpg"
+						imgArr={voyageurArray}
+						futTitle="L'arbre du Voyageur"
+						futAvailability="Disponible"
+					/>
+					<CreationCard
+						img="/images/caribbean_pirat.jpg"
+						imgArr={caribbeanPiratArray}
+						futTitle="Caribbean Pirat 971"
 						futAvailability="Acquis"
 					/>
 				</div>
