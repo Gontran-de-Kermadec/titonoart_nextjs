@@ -90,6 +90,30 @@ const Bar = () => {
 				<Prev route="/creation/art" btnName="Art" />
 				<div className={creationStyle.creation__subsection__allCards}>
 					<CreationCard
+						img="/images/jasmin.jpg"
+						imgArr={jasminArray}
+						futTitle="CF Jasmin"
+						futAvailability="Acquis"
+					/>
+					<CreationCard
+						img="/images/antilles.jpg"
+						imgArr={antillesArray}
+						futTitle="CF Petites Antilles"
+						futAvailability="Acquis"
+					/>
+					<CreationCard
+						img="/images/palm_tree.jpg"
+						imgArr={palmTreeArray}
+						futTitle="CF Palm Tree"
+						futAvailability="Acquis"
+					/>
+					<CreationCard
+						img="/images/rokamir.jpg"
+						imgArr={rokamirArray}
+						futTitle="CF Best gift for mum"
+						futAvailability="Acquis"
+					/>
+					<CreationCard
 						img="/images/mini_fut.jpg"
 						imgArr={minifutArray}
 						futTitle="Mini Tono 3/5 litres"
@@ -123,30 +147,6 @@ const Bar = () => {
 						img="/images/carib4.jpg"
 						imgArr={carib4Array}
 						futTitle="CF Caribbean selection 4/4"
-						futAvailability="Acquis"
-					/>
-					<CreationCard
-						img="/images/rokamir.jpg"
-						imgArr={rokamirArray}
-						futTitle="CF Best gift for mum"
-						futAvailability="Acquis"
-					/>
-					<CreationCard
-						img="/images/antilles.jpg"
-						imgArr={antillesArray}
-						futTitle="CF Petites Antilles"
-						futAvailability="Acquis"
-					/>
-					<CreationCard
-						img="/images/palm_tree.jpg"
-						imgArr={palmTreeArray}
-						futTitle="CF Palm Tree"
-						futAvailability="Acquis"
-					/>
-					<CreationCard
-						img="/images/jasmin.jpg"
-						imgArr={jasminArray}
-						futTitle="CF Jasmin"
 						futAvailability="Acquis"
 					/>
 				</div>

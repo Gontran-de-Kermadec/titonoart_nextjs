@@ -6,6 +6,7 @@ function Home() {
 		"/images/slider0.jpg",
 		"/images/slider1.jpg",
 		"/images/slider2.jpg",
+		"/images/slider3.jpg",
 	];
 	return (
 		<div>

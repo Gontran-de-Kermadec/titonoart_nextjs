@@ -67,6 +67,18 @@ const Deco = () => {
 				<Prev route="/creation/bar" btnName="Bar" />
 				<div className={creationStyle.creation__subsection__allCards}>
 					<CreationCard
+						img="/images/voyageur.jpg"
+						imgArr={voyageurArray}
+						futTitle="L'arbre du Voyageur"
+						futAvailability="Disponible"
+					/>
+					<CreationCard
+						img="/images/caribbean_pirat.jpg"
+						imgArr={caribbeanPiratArray}
+						futTitle="Caribbean Pirat 971"
+						futAvailability="Acquis"
+					/>
+					<CreationCard
 						img="/images/papillon1.jpg"
 						imgArr={papillonArray}
 						futTitle="Papillon"
@@ -94,18 +106,6 @@ const Deco = () => {
 						img="/images/tortue.jpg"
 						imgArr={tortueArray}
 						futTitle="Gocho-Etchea"
-						futAvailability="Acquis"
-					/>
-					<CreationCard
-						img="/images/voyageur.jpg"
-						imgArr={voyageurArray}
-						futTitle="L'arbre du Voyageur"
-						futAvailability="Disponible"
-					/>
-					<CreationCard
-						img="/images/caribbean_pirat.jpg"
-						imgArr={caribbeanPiratArray}
-						futTitle="Caribbean Pirat 971"
 						futAvailability="Acquis"
 					/>
 				</div>
