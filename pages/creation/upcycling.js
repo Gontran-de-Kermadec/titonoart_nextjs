@@ -24,10 +24,10 @@ const Art = () => {
 		<div className={creationStyle.art__container}>
 			<div className={creationStyle.creation__subsection__intro}>
 				<p>
-					L'upcycling, c'est une nouvelle méthode de recyclage : on créer du
-					neuf avec du vieux, sans pour autant transformer ou déconstruire la
-					matière première que l'on utilise. Ici nous reprenons vos fûts usagers
-					et nous lui redonnons une peau neuve.
+					L'upcycling, c'est une nouvelle méthode de recyclage : on crée du neuf
+					avec du vieux, sans pour autant transformer ou déconstruire la matière
+					première que l'on utilise. Ici nous reprenons vos fûts usagés et nous
+					lui redonnons une peau neuve.
 				</p>
 			</div>
 			<div className={creationStyle.creation__subsection}>

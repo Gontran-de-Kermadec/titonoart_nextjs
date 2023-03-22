@@ -57,7 +57,7 @@ const Art = () => {
 						imgArr={terreArray}
 						futTitle="Terre natale"
 						futDate="Peinture acrylique - Mai 2021"
-						futAvailability="Disponible"
+						futAvailability="Acquis"
 					/>
 					<CreationCard
 						img="/images/nature.jpg"
