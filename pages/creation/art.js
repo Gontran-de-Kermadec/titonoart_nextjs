@@ -32,6 +32,13 @@ const Art = () => {
 		"/images/art__nature/nature3.jpg",
 		"/images/art__nature/nature4.jpg",
 	];
+	const nuptialeArray = [
+		"/images/art/nuptiale.jpg",
+		"/images/art/nuptiale1.jpg",
+		"/images/art/nuptiale2.jpg",
+		"/images/art/nuptiale3.jpg",
+		"/images/art/nuptiale4.jpg",
+	];
 	return (
 		<div className={creationStyle.art__container}>
 			<div className={creationStyle.creation__subsection__intro}>
@@ -64,6 +71,13 @@ const Art = () => {
 						imgArr={natureArray}
 						futTitle="Luxuriante nature"
 						futDate="Peinture acrylique - Septembre 2021"
+						futAvailability="Disponible"
+					/>
+					<CreationCard
+						img="/images/nuptiale.jpg"
+						imgArr={nuptialeArray}
+						futTitle="Danse Nuptiale"
+						//futDate="Peinture acrylique - Septembre 2021"
 						futAvailability="Disponible"
 					/>
 				</div>

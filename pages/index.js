@@ -20,8 +20,9 @@ function Home() {
 				<section className={homeStyle.avent_container}>
 					<p>Réalisation du Packaging du Calendrier de l'Avent des rhums 2023</p>
 				<a href="https://www.laroutedesrhums.com/fr/tous-nos-rhums/1185-calendrier-de-l-avent-du-rhum-la-route-des-rhums-3770029126018.html" target="__blank">
-						<img src="images/robin_peinture.jpg" alt="Robin qui pose"></img>
+						<img src="images/robin_peinture.jpg" alt="Tableau acrylique"></img>
 					</a>
+					<p>Code promo: robin2320</p>
 				</section>
 				<section className={homeStyle.homepage__partenaire}>
 					<p>Où retrouver nos créations</p>

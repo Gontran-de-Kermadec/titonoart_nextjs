@@ -20,6 +20,13 @@ const Art = () => {
 		"/images/upcycling/serenite/serenite3.jpg",
 		"/images/upcycling/serenite/serenite4.jpg",
 	];
+	const naoArray = [
+		"/images/upcycling/nao/nao.jpg",
+		"/images/upcycling/nao/nao1.jpg",
+		"/images/upcycling/nao/nao2.jpg",
+		"/images/upcycling/nao/nao3.jpg",
+		"/images/upcycling/nao/nao4.jpg",
+	];
 	return (
 		<div className={creationStyle.art__container}>
 			<div className={creationStyle.creation__subsection__intro}>
@@ -39,13 +46,13 @@ const Art = () => {
 						futTitle={"Serenite"}
 						futAvailability="Acquis"
 					/>
-					{/* <CreationCard
-						img="/images/terre.jpg"
-						imgArr={terreArray}
-						futTitle="Terre natale"
-						futDate="Peinture acrylique - Mai 2021"
+					<CreationCard
+						img="/images/nao.jpg"
+						imgArr={naoArray}
+						futTitle="Nao"
+						//futDate="Novembre 2023"
 						futAvailability="Disponible"
-					/> */}
+					/>
 				</div>
 				<div></div>
 			</div>

@@ -28,6 +28,7 @@
 	width: 30vw;
 	box-shadow: 5px 5px 10px 3px #606060;
 	transition: 0.3s;
+	margin-bottom: 1em;
 }
 .avent_container img:hover {
 	transform: scale(1.02);
