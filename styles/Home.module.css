@@ -16,3 +16,34 @@
 .homepage__contact {
 	margin: 3rem;
 }
+.avent_container {
+    margin: 4em auto;
+	width: 65vw;
+}
+.avent_container p {
+    font-weight: bold;
+	margin-bottom: 2em;
+}
+.avent_container img {
+	width: 30vw;
+	box-shadow: 5px 5px 10px 3px #606060;
+	transition: 0.3s;
+}
+.avent_container img:hover {
+	transform: scale(1.02);
+}
+@media (max-width: 425px) {
+	.avent_container img {
+		width: 65vw;
+	}	
+}
+@media (max-width: 425px) {
+	.avent_container img {
+		width: 50vw;
+	}	
+}
+@media (max-width: 425px) {
+	.avent_container img {
+		width: 65vw;
+	}	
+}
