@@ -51,7 +51,7 @@ const Art = () => {
 						imgArr={naoArray}
 						futTitle="Nao"
 						//futDate="Novembre 2023"
-						futAvailability="Disponible"
+						futAvailability="Acquis"
 					/>
 				</div>
 				<div></div>

@@ -77,7 +77,7 @@ const Art = () => {
 						img="/images/nuptiale.jpg"
 						imgArr={nuptialeArray}
 						futTitle="Danse Nuptiale"
-						//futDate="Peinture acrylique - Septembre 2021"
+						futDate="Peinture acrylique - Novembre 2023"
 						futAvailability="Disponible"
 					/>
 				</div>
