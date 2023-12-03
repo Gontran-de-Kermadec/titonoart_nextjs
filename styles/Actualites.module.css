@@ -1,0 +1,39 @@
+
+
+.actualite {
+    margin: 1em;
+}
+
+/* .actualite .creation__subsection__card {
+    width: 40%;
+} */
+/* #__next > main > div > section.Actualites_actualite__yqVtU > div:nth-child(3) */
+.actualite .photos_expo_container > div {
+    width: 90%;
+}
+.actualite .photos_expo_container > div figure img {
+    width: 100%;
+}
+.actualite .event_one {
+    margin: 1em 0;
+}
+.actualite .event_one > p {
+    font-weight: bold;
+    margin: 1em 0;
+}
+@media (min-width: 500px) {
+    .actualite .photos_expo_container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .actualite .photos_expo_container > div {
+        width: 40%;
+    }
+}
+@media (min-width: 1024px) {
+   
+    .actualite .photos_expo_container > div {
+        width: 30%;
+    }
+}
