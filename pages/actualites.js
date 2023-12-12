@@ -25,44 +25,26 @@ function Actualites() {
                 <CreationCard
 						img="/images/vernissage/vernissage.jpg"
 						imgArr={vernissageArray}
-						//futTitle="Nao"
-						//futDate="Novembre 2023"
-						//futAvailability="Acquis"
 					/>
                 <CreationCard
 						img="/images/vernissage/vernissage1.jpg"
 						imgArr={vernissageArray}
-						//futTitle="Nao"
-						//futDate="Novembre 2023"
-						//futAvailability="Acquis"
 					/>
                 <CreationCard
 						img="/images/vernissage/vernissage2.jpg"
 						imgArr={vernissageArray}
-						//futTitle="Nao"
-						//futDate="Novembre 2023"
-						//futAvailability="Acquis"
 					/>
                 <CreationCard
 						img="/images/vernissage/vernissage3.jpg"
 						imgArr={vernissageArray}
-						//futTitle="Nao"
-						//futDate="Novembre 2023"
-						//futAvailability="Acquis"
 					/>
                 <CreationCard
 						img="/images/vernissage/vernissage4.jpg"
 						imgArr={vernissageArray}
-						//futTitle="Nao"
-						//futDate="Novembre 2023"
-						//futAvailability="Acquis"
 					/>
                 <CreationCard
 						img="/images/vernissage/vernissage5.jpg"
 						imgArr={vernissageArray}
-						//futTitle="Nao"
-						//futDate="Novembre 2023"
-						//futAvailability="Acquis"
 					/>
                 </div>
             </section>

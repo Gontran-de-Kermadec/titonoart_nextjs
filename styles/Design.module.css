@@ -1,0 +1,37 @@
+
+
+.design {
+    /* width: 1em; */
+    margin: 0 auto;
+}
+.design figure img {
+    width: 100%;
+}
+/* .actualite .photos_expo_container > div {
+    width: 90%;
+}
+.actualite .photos_expo_container > div figure img {
+}
+.actualite .event_one {
+    margin: 1em 0;
+}
+.actualite .event_one > p {
+    font-weight: bold;
+    margin: 1em 0;
+} */
+@media (min-width: 425px) {
+    .design {
+        width: 60vw;
+    }
+    
+}
+@media (min-width: 768px) {
+    .design {
+        width: 40vw;
+    }
+}
+@media (min-width: 1024px) {
+    .design {
+        width: 30vw;
+    }
+}

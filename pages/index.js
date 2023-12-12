@@ -22,7 +22,7 @@ function Home() {
 				<a href="https://www.laroutedesrhums.com/fr/tous-nos-rhums/1185-calendrier-de-l-avent-du-rhum-la-route-des-rhums-3770029126018.html" target="__blank">
 						<img src="images/robin_peinture.jpg" alt="Tableau acrylique"></img>
 					</a>
-					{/* <p>Code promo: robin2320</p> */}
+					<p>Code promo: robin2320</p>
 				</section>
 				<section className={homeStyle.homepage__partenaire}>
 					<p>Où retrouver nos créations</p>

@@ -75,6 +75,13 @@ const Bar = () => {
 		"/images/bar/jasmin/jasmin2.jpg",
 		"/images/bar/jasmin/jasmin3.jpg",
 	];
+	const eiffageArray = [
+		"/images/bar/eiffage/eiffage.jpg",
+		"/images/bar/eiffage/eiffage1.jpg",
+		"/images/bar/eiffage/eiffage2.jpg",
+		"/images/bar/eiffage/eiffage3.jpg",
+		"/images/bar/eiffage/eiffage4.jpg",
+	];
 	return (
 		<div>
 			<div className={creationStyle.creation__subsection__intro}>
@@ -147,6 +154,12 @@ const Bar = () => {
 						img="/images/carib4.jpg"
 						imgArr={carib4Array}
 						futTitle="CF Caribbean selection 4/4"
+						futAvailability="Acquis"
+					/>
+					<CreationCard
+						img="/images/eiffage.jpg"
+						imgArr={eiffageArray}
+						futTitle="Collection tropical foliage by Eiffage"
 						futAvailability="Acquis"
 					/>
 				</div>

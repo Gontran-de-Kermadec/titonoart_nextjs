@@ -34,11 +34,11 @@ function Header() {
 									<li>Créations</li>
 								</a>
 							</Link>
-							<Link href="/design" passHref>
+							{/* <Link href="/design" passHref>
 								<a href="replace">
 									<li>Design</li>
 								</a>
-							</Link>
+							</Link> */}
 							<Link href="/actualites" passHref>
 								<a href="replace">
 									<li>Actualités</li>
@@ -240,11 +240,11 @@ l0 26 673 0 c459 0 685 -4 712 -11z m-3585 -671 c260 -370 474 -678 477 -685
 										<li onClick={() => toggleMenu()}>Créations</li>
 									</a>
 								</Link>
-								<Link href="/design" passHref>
+								{/* <Link href="/design" passHref>
 									<a href="replace">
 										<li onClick={() => toggleMenu()}>Design</li>
 									</a>
-								</Link>
+								</Link> */}
 								<Link href="/actualites" passHref>
 									<a href="replace">
 										<li onClick={() => toggleMenu()}>Actualités</li>
