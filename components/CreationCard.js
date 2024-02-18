@@ -22,24 +22,25 @@ const CreationCard = (props) => {
 		}
 	};
 	const dispo = (availability) => {
-		if(availability !== undefined) {
+		if (availability !== undefined) {
 			if (availability.toLowerCase() === "acquis") {
 				return (
 					<p className={creationStyle.creation__subsection__availability}>
 						Acquis
 					</p>
 				);
+			} else {
+				return (
+					<p className={creationStyle.creation__subsection__availability}>
+						<span className={creationStyle.creation__subsection__dispo}></span>
+						Disponible
+					</p>
+				);
+			}
 		} else {
-			return (
-				<p className={creationStyle.creation__subsection__availability}>
-					<span className={creationStyle.creation__subsection__dispo}></span>
-					Disponible
-				</p>
-			);
-		}
-		} else  {
 			return null
 		}
+
 		// if (availability.toLowerCase() === "acquis" && availability !== undefined) {
 		// 	return (
 		// 		<p className={creationStyle.creation__subsection__availability}>
@@ -57,6 +58,26 @@ const CreationCard = (props) => {
 		// 	return null
 		// }
 	};
+	const dimension = (dimension) => {
+		if (dimension !== undefined) {
+			return (
+				<p className={creationStyle.creation__subsection__dimension}>
+					{dimension}
+				</p>
+			);
+			// if (availability.toLowerCase() === "acquis") {
+			// } else {
+			// 	return (
+			// 		<p className={creationStyle.creation__subsection__availability}>
+			// 			<span className={creationStyle.creation__subsection__dispo}></span>
+			// 			Disponible
+			// 		</p>
+			// 	);
+			// }
+		} else {
+			return null
+		}
+	}
 	return (
 		<div className={creationStyle.creation__subsection__card}>
 			<figure
@@ -91,7 +112,9 @@ const CreationCard = (props) => {
 			<div>
 				<h3>{props.futTitle}</h3>
 				<p>{props.futDate}</p>
-				{dispo ? dispo(props.futAvailability) : null }
+				{/* <p>Haut 95cm * diam 75cm</p> */}
+				{dimension ? dimension(props.futDimension) : null}
+				{dispo ? dispo(props.futAvailability) : null}
 			</div>
 		</div>
 	);

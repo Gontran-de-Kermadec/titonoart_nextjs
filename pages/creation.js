@@ -5,7 +5,7 @@ function Creation() {
 	return (
 		<div className={creationStyle.creation}>
 			<div className={creationStyle.creation__intro}>
-				<h1>Créations</h1>
+				<h1>Collections</h1>
 				<p>
 					Toutes nos créations sont des réalisations uniques qui nécessitent de
 					longues heures d’imagination & de travail. <br />

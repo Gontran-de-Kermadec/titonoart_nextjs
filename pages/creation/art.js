@@ -78,7 +78,8 @@ const Art = () => {
 						imgArr={nuptialeArray}
 						futTitle="Danse Nuptiale"
 						futDate="Peinture acrylique - Novembre 2023"
-						futAvailability="Disponible"
+						futDimension="Hauteur 95cm * Diamètre 72cm"
+						futAvailability="Acquis"
 					/>
 				</div>
 				<Next route="/creation/bar" btnName="Bar" />

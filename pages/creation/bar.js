@@ -148,7 +148,7 @@ const Bar = () => {
 						img="/images/carib3.jpg"
 						imgArr={carib3Array}
 						futTitle="CF Caribbean selection 3/4"
-						futAvailability="Disponible"
+						futAvailability="Acquis"
 					/>
 					<CreationCard
 						img="/images/carib4.jpg"

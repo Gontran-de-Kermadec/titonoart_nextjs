@@ -5,6 +5,17 @@ function Icons({ location }) {
 	return (
 		<div className={headerStyle.header__icons}>
 			<a
+				href="mailto:titonoart@gmail.com"
+				target="_blank"
+				rel="noopener noreferrer"
+			>
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+					<g id="row3">
+						<path d="M39.7 60.2 0 99.3V28.4l39.7 31.8zM4.8 24.6 64 72.1l59.2-47.5H4.8zM83.6 64 64 79.7 44.4 64 4.2 103.4h119.5L83.6 64zm4.7-3.8L128 99.3V28.4L88.3 60.2z" />
+					</g>
+				</svg>
+			</a>
+			<a
 				href="https://www.instagram.com/titonoart/"
 				target="_blank"
 				rel="noopener noreferrer"
@@ -78,3 +89,4 @@ function Icons({ location }) {
 }
 
 export default Icons;
+

@@ -31,7 +31,7 @@ function Header() {
 							</Link>
 							<Link href="/creation" passHref>
 								<a href="replace">
-									<li>Créations</li>
+									<li>Collections</li>
 								</a>
 							</Link>
 							{/* <Link href="/design" passHref>
