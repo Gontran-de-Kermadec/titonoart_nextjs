@@ -57,6 +57,7 @@ const Art = () => {
 						imgArr={voilierArray}
 						futTitle={"Nuance sur la baie"}
 						futDate="Peinture acrylique - Mai 2021"
+						futDimension="H95cm x ø72cm"
 						futAvailability="Acquis"
 					/>
 					<CreationCard
@@ -64,6 +65,7 @@ const Art = () => {
 						imgArr={terreArray}
 						futTitle="Terre natale"
 						futDate="Peinture acrylique - Mai 2021"
+						futDimension="H95cm x ø72cm"
 						futAvailability="Acquis"
 					/>
 					<CreationCard
@@ -71,6 +73,7 @@ const Art = () => {
 						imgArr={natureArray}
 						futTitle="Luxuriante nature"
 						futDate="Peinture acrylique - Septembre 2021"
+						futDimension="H95cm x ø72cm"
 						futAvailability="Disponible"
 					/>
 					<CreationCard
@@ -78,7 +81,7 @@ const Art = () => {
 						imgArr={nuptialeArray}
 						futTitle="Danse Nuptiale"
 						futDate="Peinture acrylique - Novembre 2023"
-						futDimension="Hauteur 95cm * Diamètre 72cm"
+						futDimension="H95cm x ø72cm"
 						futAvailability="Acquis"
 					/>
 				</div>

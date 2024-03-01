@@ -82,6 +82,13 @@ const Bar = () => {
 		"/images/bar/eiffage/eiffage3.jpg",
 		"/images/bar/eiffage/eiffage4.jpg",
 	];
+	const pirateArray = [
+		"/images/bar/pirat/pirat.jpg",
+		"/images/bar/pirat/pirat1.jpg",
+		"/images/bar/pirat/pirat2.jpg",
+		"/images/bar/pirat/pirat3.jpg",
+		"/images/bar/pirat/pirat4.jpg",
+	];
 	return (
 		<div>
 			<div className={creationStyle.creation__subsection__intro}>
@@ -97,9 +104,17 @@ const Bar = () => {
 				<Prev route="/creation/art" btnName="Art" />
 				<div className={creationStyle.creation__subsection__allCards}>
 					<CreationCard
+						img="/images/pirat.jpg"
+						imgArr={pirateArray}
+						futTitle="CF Pirat FWI 971"
+						futDimension="H95cm x ø82cm éclairage LED"
+						futAvailability="Acquis"
+					/>
+					<CreationCard
 						img="/images/jasmin.jpg"
 						imgArr={jasminArray}
 						futTitle="CF Jasmin"
+						futDimension="H95cm x ø82cm"
 						futAvailability="Acquis"
 					/>
 					<CreationCard
@@ -160,6 +175,7 @@ const Bar = () => {
 						img="/images/eiffage.jpg"
 						imgArr={eiffageArray}
 						futTitle="Collection tropical foliage by Eiffage"
+						futDimension="H95cm x ø82cm"
 						futAvailability="Acquis"
 					/>
 				</div>
