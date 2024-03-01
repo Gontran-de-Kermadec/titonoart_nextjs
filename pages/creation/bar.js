@@ -89,6 +89,13 @@ const Bar = () => {
 		"/images/bar/pirat/pirat3.jpg",
 		"/images/bar/pirat/pirat4.jpg",
 	];
+	const racoonArray = [
+		"/images/bar/racoon/racoon.jpg",
+		"/images/bar/racoon/racoon1.jpg",
+		"/images/bar/racoon/racoon2.jpg",
+		"/images/bar/racoon/racoon3.jpg",
+		"/images/bar/racoon/racoon4.jpg",
+	];
 	return (
 		<div>
 			<div className={creationStyle.creation__subsection__intro}>
@@ -104,10 +111,24 @@ const Bar = () => {
 				<Prev route="/creation/art" btnName="Art" />
 				<div className={creationStyle.creation__subsection__allCards}>
 					<CreationCard
+						img="/images/racoon.jpg"
+						imgArr={racoonArray}
+						futTitle="CF Colibri Racoon"
+						futDimension="H95cm x ø82cm"
+						futAvailability="Acquis"
+					/>
+					<CreationCard
 						img="/images/pirat.jpg"
 						imgArr={pirateArray}
 						futTitle="CF Pirat FWI 971"
 						futDimension="H95cm x ø82cm éclairage LED"
+						futAvailability="Acquis"
+					/>
+					<CreationCard
+						img="/images/eiffage.jpg"
+						imgArr={eiffageArray}
+						futTitle="CF tropical foliage by Eiffage"
+						futDimension="H95cm x ø82cm"
 						futAvailability="Acquis"
 					/>
 					<CreationCard
@@ -169,13 +190,6 @@ const Bar = () => {
 						img="/images/carib4.jpg"
 						imgArr={carib4Array}
 						futTitle="CF Caribbean selection 4/4"
-						futAvailability="Acquis"
-					/>
-					<CreationCard
-						img="/images/eiffage.jpg"
-						imgArr={eiffageArray}
-						futTitle="Collection tropical foliage by Eiffage"
-						futDimension="H95cm x ø82cm"
 						futAvailability="Acquis"
 					/>
 				</div>
