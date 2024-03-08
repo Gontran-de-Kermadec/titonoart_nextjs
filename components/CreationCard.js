@@ -29,6 +29,12 @@ const CreationCard = (props) => {
 						Acquis
 					</p>
 				);
+			} else if (availability.toLowerCase() !== "acquis" && availability.toLowerCase() !== "disponible") {
+				return (
+					<p className={creationStyle.creation__subsection__availability}>
+						Don - vente aux enchères
+					</p>
+				);
 			} else {
 				return (
 					<p className={creationStyle.creation__subsection__availability}>

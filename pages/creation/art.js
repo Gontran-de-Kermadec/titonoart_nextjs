@@ -39,6 +39,13 @@ const Art = () => {
 		"/images/art/nuptiale3.jpg",
 		"/images/art/nuptiale4.jpg",
 	];
+	const lamerArray = [
+		"/images/art_lamer/lamer.jpg",
+		"/images/art_lamer/lamer1.jpg",
+		"/images/art_lamer/lamer2.jpg",
+		"/images/art_lamer/lamer3.jpg",
+		"/images/art_lamer/lamer4.jpg",
+	];
 	return (
 		<div className={creationStyle.art__container}>
 			<div className={creationStyle.creation__subsection__intro}>
@@ -52,6 +59,14 @@ const Art = () => {
 			<div className={creationStyle.creation__subsection}>
 				<div></div>
 				<div className={creationStyle.creation__subsection__allCards}>
+					<CreationCard
+						img="/images/lamer.jpg"
+						imgArr={lamerArray}
+						futTitle={"La mer pour tous"}
+						futDate="Peinture acrylique - Novembre 2023"
+						futDimension="H95cm x ø72cm"
+						futAvailability="Don"
+					/>
 					<CreationCard
 						img="/images/voilier.jpg"
 						imgArr={voilierArray}
