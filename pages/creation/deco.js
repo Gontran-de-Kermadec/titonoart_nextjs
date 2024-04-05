@@ -55,6 +55,13 @@ const Deco = () => {
 		"/images/deco/caribbean_pirat/caribbean_pirat3.jpg",
 		"/images/deco/caribbean_pirat/caribbean_pirat4.jpg",
 	];
+	const midiArray = [
+		"/images/deco/midi/midi.jpg",
+		"/images/deco/midi/midi1.jpg",
+		"/images/deco/midi/midi2.jpg",
+		"/images/deco/midi/midi3.jpg",
+		"/images/deco/midi/midi4.jpg",
+	];
 	return (
 		<div>
 			<div
@@ -66,6 +73,14 @@ const Deco = () => {
 			>
 				<Prev route="/creation/bar" btnName="Bar" />
 				<div className={creationStyle.creation__subsection__allCards}>
+					<CreationCard
+						img="/images/midi.jpg"
+						imgArr={midiArray}
+						futTitle="Midi Caraïbes"
+						futAvailability="Disponible"
+						futDate="Plateau en contreplaqué doublé"
+						futDimension="sur mesure 300 mm d'épaisseur"
+					/>
 					<CreationCard
 						img="/images/voyageur.jpg"
 						imgArr={voyageurArray}

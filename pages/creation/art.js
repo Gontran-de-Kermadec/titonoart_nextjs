@@ -39,6 +39,12 @@ const Art = () => {
 		"/images/art/nuptiale3.jpg",
 		"/images/art/nuptiale4.jpg",
 	];
+	const lettreArray = [
+		"/images/art/lettre/lettre.jpg",
+		"/images/art/lettre/lettre1.jpg",
+		"/images/art/lettre/lettre2.jpg",
+		"/images/art/lettre/lettre3.jpg",
+	];
 	const lamerArray = [
 		"/images/art_lamer/lamer.jpg",
 		"/images/art_lamer/lamer1.jpg",
@@ -60,12 +66,28 @@ const Art = () => {
 				<div></div>
 				<div className={creationStyle.creation__subsection__allCards}>
 					<CreationCard
+						img="/images/lettre.jpg"
+						imgArr={lettreArray}
+						futTitle={"Lettres capitales"}
+						// futDate="Peinture acrylique - Novembre 2023"
+						futDimension="H95cm x ø82cm"
+						futAvailability="Disponible"
+					/>
+					<CreationCard
 						img="/images/lamer.jpg"
 						imgArr={lamerArray}
 						futTitle={"La mer pour tous"}
 						futDate="Peinture acrylique - Novembre 2023"
 						futDimension="H95cm x ø72cm"
 						futAvailability="Don"
+					/>
+					<CreationCard
+						img="/images/nuptiale.jpg"
+						imgArr={nuptialeArray}
+						futTitle="Danse Nuptiale"
+						futDate="Peinture acrylique - Novembre 2023"
+						futDimension="H95cm x ø72cm"
+						futAvailability="Acquis"
 					/>
 					<CreationCard
 						img="/images/voilier.jpg"
@@ -90,14 +112,6 @@ const Art = () => {
 						futDate="Peinture acrylique - Septembre 2021"
 						futDimension="H95cm x ø72cm"
 						futAvailability="Disponible"
-					/>
-					<CreationCard
-						img="/images/nuptiale.jpg"
-						imgArr={nuptialeArray}
-						futTitle="Danse Nuptiale"
-						futDate="Peinture acrylique - Novembre 2023"
-						futDimension="H95cm x ø72cm"
-						futAvailability="Acquis"
 					/>
 				</div>
 				<Next route="/creation/bar" btnName="Bar" />

@@ -88,6 +88,7 @@ const Bar = () => {
 		"/images/bar/pirat/pirat2.jpg",
 		"/images/bar/pirat/pirat3.jpg",
 		"/images/bar/pirat/pirat4.jpg",
+		"/images/bar/pirat/pirat5.jpg",
 	];
 	const racoonArray = [
 		"/images/bar/racoon/racoon.jpg",
