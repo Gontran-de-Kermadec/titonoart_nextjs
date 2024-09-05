@@ -77,7 +77,7 @@ const Deco = () => {
 						img="/images/midi.jpg"
 						imgArr={midiArray}
 						futTitle="Midi Caraïbes"
-						futAvailability="Disponible"
+						futAvailability="Acquis"
 						futDate="Plateau en contreplaqué doublé"
 						futDimension="sur mesure 300 mm d'épaisseur"
 					/>
@@ -85,7 +85,7 @@ const Deco = () => {
 						img="/images/voyageur.jpg"
 						imgArr={voyageurArray}
 						futTitle="L'arbre du Voyageur"
-						futAvailability="Disponible"
+						futAvailability="Acquis"
 					/>
 					<CreationCard
 						img="/images/caribbean_pirat.jpg"

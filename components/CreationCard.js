@@ -47,22 +47,6 @@ const CreationCard = (props) => {
 			return null
 		}
 
-		// if (availability.toLowerCase() === "acquis" && availability !== undefined) {
-		// 	return (
-		// 		<p className={creationStyle.creation__subsection__availability}>
-		// 			Acquis
-		// 		</p>
-		// 	);
-		// } else if (availability.toLowerCase() === "disponible") {
-		// 	return (
-		// 		<p className={creationStyle.creation__subsection__availability}>
-		// 			<span className={creationStyle.creation__subsection__dispo}></span>
-		// 			Disponible
-		// 		</p>
-		// 	);
-		// } else {
-		// 	return null
-		// }
 	};
 	const dimension = (dimension) => {
 		if (dimension !== undefined) {
