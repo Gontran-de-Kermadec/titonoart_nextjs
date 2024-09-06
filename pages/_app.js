@@ -4,30 +4,26 @@ import Head from "next/head";
 import logo from "../public/images/logo.svg";
 import Script from "next/script";
 
+// console.log(process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID);
+
 function MyApp({ Component, pageProps }) {
 	return (
 		<>
-			<Script async src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GOOGLE_ANALYTICS_ID}`}></Script>
+			<Script async src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID}`}></Script>
+
 			<Script id="google-analytics">
+
 				{
 					`
 						window.dataLayer = window.dataLayer || [];
 					function gtag(){dataLayer.push(arguments)}
 					gtag('js', new Date());
 
-					gtag('config', '${process.env.GOOGLE_ANALYTICS_ID}');
+					gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID}');
 						`
 				}
 			</Script>
 			<Head>
-				{/* <script async src="https://www.googletagmanager.com/gtag/js?id=G-HMZDBXK9Q2"></script>
-				<script>
-					window.dataLayer = window.dataLayer || [];
-					function gtag(){dataLayer.push(arguments)}
-					gtag('js', new Date());
-
-					gtag('config', 'G-HMZDBXK9Q2');
-				</script> */}
 				<link
 					rel="apple-touch-icon"
 					sizes="180x180"
