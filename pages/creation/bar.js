@@ -97,6 +97,18 @@ const Bar = () => {
 		"/images/bar/racoon/racoon3.jpg",
 		"/images/bar/racoon/racoon4.jpg",
 	];
+	const agritourArray = [
+		"/images/bar/agritour/agritour.jpg",
+		"/images/bar/agritour/agritour1.jpg",
+		"/images/bar/agritour/agritour2.jpg",
+		"/images/bar/agritour/agritour3.jpg",
+	];
+	const jardinArray = [
+		"/images/bar/jardin/jardin.jpg",
+		"/images/bar/jardin/jardin1.jpg",
+		"/images/bar/jardin/jardin2.jpg",
+		"/images/bar/jardin/jardin3.jpg",
+	];
 	return (
 		<div>
 			<div className={creationStyle.creation__subsection__intro}>
@@ -111,6 +123,20 @@ const Bar = () => {
 			<div className={creationStyle.creation__subsection}>
 				<Prev route="/creation/art" btnName="Art" />
 				<div className={creationStyle.creation__subsection__allCards}>
+					<CreationCard
+						img="/images/jardin.jpg"
+						imgArr={jardinArray}
+						futTitle="CF Jardin des Mers"
+						futDimension="H95cm x ø82cm"
+						futAvailability="Acquis"
+					/>
+					<CreationCard
+						img="/images/agritour.jpg"
+						imgArr={agritourArray}
+						futTitle="CF Agritour"
+						futDimension="H95cm x ø82cm"
+						futAvailability="Acquis"
+					/>
 					<CreationCard
 						img="/images/racoon.jpg"
 						imgArr={racoonArray}
