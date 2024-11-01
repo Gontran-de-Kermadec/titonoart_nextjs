@@ -109,6 +109,13 @@ const Bar = () => {
 		"/images/bar/jardin/jardin2.jpg",
 		"/images/bar/jardin/jardin3.jpg",
 	];
+	const rougeBleuArray = [
+		"/images/bar/rougebleu/rougebleu.jpg",
+		"/images/bar/rougebleu/rougebleu1.jpg",
+		"/images/bar/rougebleu/rougebleu2.jpg",
+		"/images/bar/rougebleu/rougebleu3.jpg",
+		"/images/bar/rougebleu/rougebleu4.jpg",
+	];
 	return (
 		<div>
 			<div className={creationStyle.creation__subsection__intro}>
@@ -123,6 +130,13 @@ const Bar = () => {
 			<div className={creationStyle.creation__subsection}>
 				<Prev route="/creation/art" btnName="Art" />
 				<div className={creationStyle.creation__subsection__allCards}>
+					<CreationCard
+						img="/images/rougebleu.jpg"
+						imgArr={rougeBleuArray}
+						futTitle="CF Rouge et Bleu"
+						futDimension="H95cm x ø82cm éclairage LED"
+						futAvailability="Acquis"
+					/>
 					<CreationCard
 						img="/images/jardin.jpg"
 						imgArr={jardinArray}
