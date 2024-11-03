@@ -69,8 +69,8 @@ const Art = () => {
 						img="/images/lettre.jpg"
 						imgArr={lettreArray}
 						futTitle={"Lettres capitales"}
-						// futDate="Peinture acrylique - Novembre 2023"
-						futDimension="H95cm x ø82cm"
+						futDate="Peinture acrylique - Mai 2024"
+						futDimension="H95cm x ø72cm"
 						futAvailability="Disponible"
 					/>
 					<CreationCard
@@ -111,7 +111,7 @@ const Art = () => {
 						futTitle="Luxuriante nature"
 						futDate="Peinture acrylique - Septembre 2021"
 						futDimension="H95cm x ø72cm"
-						futAvailability="Disponible"
+						futAvailability="Acquis"
 					/>
 				</div>
 				<Next route="/creation/bar" btnName="Bar" />
