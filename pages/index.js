@@ -20,11 +20,15 @@ function Home() {
 					<br />Entre tradition et insolite, l'artiste Robin Lepoutre s'imprègne de son île natale.
 				</p>
 				<section className={homeStyle.avent_container}>
-					<p>Réalisation du Packaging du Calendrier de l'Avent des rhums 2023</p>
+					<p>Artiste invité à Deshaies en novembre 2024</p>
+					<a href="https://titonoart.com/actualites/">
+						<img src="images/n_koffi.jpg" alt="Artiste en train de peindre"></img>
+					</a>
+					{/* <p>Réalisation du Packaging du Calendrier de l'Avent des rhums 2023</p>
 				<a href="https://www.laroutedesrhums.com/fr/tous-nos-rhums/1185-calendrier-de-l-avent-du-rhum-la-route-des-rhums-3770029126018.html" target="__blank">
 						<img src="images/robin_peinture.jpg" alt="Tableau acrylique"></img>
-					</a>
-					
+					</a> */}
+
 				</section>
 				<section className={homeStyle.homepage__partenaire}>
 					<p>Où retrouver nos créations</p>
