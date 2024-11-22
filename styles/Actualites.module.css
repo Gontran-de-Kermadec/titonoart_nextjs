@@ -37,6 +37,15 @@
     margin: 1em 0;
 }
 
+.koffi_event {
+    text-align: justify;
+    margin: 0 2em;
+}
+
+.koffi_event p {
+    font-size: 1em;
+}
+
 .koffi_event_img {
     margin: 1em 2em;
     /* margin: 0 1em 0 2em; */
@@ -44,6 +53,7 @@
 
 .koffi_event_bold {
     margin: 1.2em 0;
+    text-align: center;
 }
 
 
