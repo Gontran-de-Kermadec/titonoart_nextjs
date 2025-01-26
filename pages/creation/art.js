@@ -52,6 +52,12 @@ const Art = () => {
 		"/images/art_lamer/lamer3.jpg",
 		"/images/art_lamer/lamer4.jpg",
 	];
+	const dbmArray = [
+		"/images/art/dbm/dbm.jpg",
+		"/images/art/dbm/dbm1.jpg",
+		"/images/art/dbm/dbm2.jpg",
+		"/images/art/dbm/dbm3.jpg",
+	];
 	return (
 		<div className={creationStyle.art__container}>
 			<div className={creationStyle.creation__subsection__intro}>
@@ -65,6 +71,14 @@ const Art = () => {
 			<div className={creationStyle.creation__subsection}>
 				<div></div>
 				<div className={creationStyle.creation__subsection__allCards}>
+					<CreationCard
+						img="/images/dbm.jpg"
+						imgArr={dbmArray}
+						futTitle={"DBM"}
+						//futDate="Peinture acrylique - Mai 2024"
+						futDimension="H95cm x ø72cm"
+						futAvailability="Acquis"
+					/>
 					<CreationCard
 						img="/images/lettre.jpg"
 						imgArr={lettreArray}
