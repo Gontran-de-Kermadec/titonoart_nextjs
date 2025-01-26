@@ -52,6 +52,13 @@ const Art = () => {
 		"/images/art_lamer/lamer3.jpg",
 		"/images/art_lamer/lamer4.jpg",
 	];
+	const guadeloupe360Array = [
+		"/images/art/guadeloupe360/guadeloupe360.jpg",
+		"/images/art/guadeloupe360/guadeloupe3601.jpg",
+		"/images/art/guadeloupe360/guadeloupe3602.jpg",
+		"/images/art/guadeloupe360/guadeloupe3603.jpg",
+		"/images/art/guadeloupe360/guadeloupe3604.jpg",
+	];
 	const dbmArray = [
 		"/images/art/dbm/dbm.jpg",
 		"/images/art/dbm/dbm1.jpg",
@@ -71,6 +78,14 @@ const Art = () => {
 			<div className={creationStyle.creation__subsection}>
 				<div></div>
 				<div className={creationStyle.creation__subsection__allCards}>
+					<CreationCard
+						img="/images/guadeloupe360.jpg"
+						imgArr={guadeloupe360Array}
+						futTitle={"Guadeloupe 360°"}
+						//futDate="Peinture acrylique - Mai 2024"
+						futDimension="H95cm x ø72cm"
+						futAvailability="Acquis"
+					/>
 					<CreationCard
 						img="/images/dbm.jpg"
 						imgArr={dbmArray}
