@@ -58,12 +58,22 @@ const Art = () => {
 		"/images/art/guadeloupe360/guadeloupe3602.jpg",
 		"/images/art/guadeloupe360/guadeloupe3603.jpg",
 		"/images/art/guadeloupe360/guadeloupe3604.jpg",
+		"/images/art/guadeloupe360/guadeloupe3605.jpg",
+		"/images/art/guadeloupe360/guadeloupe3606.jpg",
+		"/images/art/guadeloupe360/guadeloupe3607.jpg",
+		"/images/art/guadeloupe360/guadeloupe3608.jpg",
+		"/images/art/guadeloupe360/guadeloupe3609.jpg",
+		"/images/art/guadeloupe360/guadeloupe36010.jpg",
 	];
 	const dbmArray = [
 		"/images/art/dbm/dbm.jpg",
 		"/images/art/dbm/dbm1.jpg",
 		"/images/art/dbm/dbm2.jpg",
 		"/images/art/dbm/dbm3.jpg",
+		"/images/art/dbm/dbm4.jpg",
+		"/images/art/dbm/dbm5.jpg",
+		"/images/art/dbm/dbm6.jpg",
+		"/images/art/dbm/dbm7.jpg",
 	];
 	return (
 		<div className={creationStyle.art__container}>
