@@ -75,6 +75,14 @@ const Art = () => {
 		"/images/art/dbm/dbm6.jpg",
 		"/images/art/dbm/dbm7.jpg",
 	];
+	const floraArray = [
+		"/images/art/flora/flora.jpg",
+		"/images/art/flora/flora1.jpg",
+		"/images/art/flora/flora2.jpg",
+		"/images/art/flora/flora3.jpg",
+		"/images/art/flora/flora4.jpg",
+		"/images/art/flora/flora5.jpg",
+	];
 	return (
 		<div className={creationStyle.art__container}>
 			<div className={creationStyle.creation__subsection__intro}>
@@ -88,6 +96,14 @@ const Art = () => {
 			<div className={creationStyle.creation__subsection}>
 				<div></div>
 				<div className={creationStyle.creation__subsection__allCards}>
+					<CreationCard
+						img="/images/flora.jpg"
+						imgArr={floraArray}
+						futTitle={"Florabotanica"}
+						futDate="Peinture acrylique - Février 2025"
+						futDimension="ouverture - éclairage LED"
+						futAvailability="Dispo"
+					/>
 					<CreationCard
 						img="/images/guadeloupe360.jpg"
 						imgArr={guadeloupe360Array}

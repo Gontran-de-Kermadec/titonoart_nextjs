@@ -116,6 +116,13 @@ const Bar = () => {
 		"/images/bar/rougebleu/rougebleu3.jpg",
 		"/images/bar/rougebleu/rougebleu4.jpg",
 	];
+	const flibustierArray = [
+		"/images/bar/flibustier/flibustier.jpg",
+		"/images/bar/flibustier/flibustier1.jpg",
+		"/images/bar/flibustier/flibustier2.jpg",
+		"/images/bar/flibustier/flibustier3.jpg",
+		"/images/bar/flibustier/flibustier4.jpg",
+	];
 	return (
 		<div>
 			<div className={creationStyle.creation__subsection__intro}>
@@ -130,6 +137,13 @@ const Bar = () => {
 			<div className={creationStyle.creation__subsection}>
 				<Prev route="/creation/art" btnName="Art" />
 				<div className={creationStyle.creation__subsection__allCards}>
+					<CreationCard
+						img="/images/flibustier.jpg"
+						imgArr={flibustierArray}
+						futTitle="CF Flibustier"
+						futDimension="H95cm x ø82cm éclairage LED"
+						futAvailability="Dispo"
+					/>
 					<CreationCard
 						img="/images/rougebleu.jpg"
 						imgArr={rougeBleuArray}
