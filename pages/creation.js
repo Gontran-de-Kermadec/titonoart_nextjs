@@ -74,22 +74,23 @@ function Creation() {
 						</div>
 					</a>
 				</Link>
-				<Link href="/creation/upcycling" passHref>
+				<Link href="/creation/tableau" passHref>
+					{/* <Link href="/creation/upcycling" passHref> */}
 					<a href="replace">
 						<div className={creationStyle.creation__card}>
 							<figure>
 								<img
-									src="/images/upcycling.jpg"
+									src="/images/pleinarisme1.jpg"
 									onMouseEnter={(e) =>
-										(e.currentTarget.src = "/images/upcycling111.jpg")
+										(e.currentTarget.src = "/images/pleinarisme1.jpg")
 									}
 									onMouseLeave={(e) =>
-										(e.currentTarget.src = "/images/upcycling.jpg")
+										(e.currentTarget.src = "/images/pleinarisme2.jpg")
 									}
-									alt="tonneau upcycling"
+									alt="Fut decoré"
 								></img>
 							</figure>
-							<button>Upcycling</button>
+							<button>Tableau</button>
 						</div>
 					</a>
 				</Link>

@@ -27,20 +27,26 @@ const Art = () => {
 		"/images/upcycling/nao/nao3.jpg",
 		"/images/upcycling/nao/nao4.jpg",
 	];
+	const pleinarisme1Array = [
+		"/images/tableau/pleinarisme1.jpg",
+	];
+	const pleinarisme2Array = [
+		"/images/tableau/pleinarisme2.jpg",
+	];
 	return (
 		<div className={creationStyle.art__container}>
-			<div className={creationStyle.creation__subsection__intro}>
+			{/* <div className={creationStyle.creation__subsection__intro}>
 				<p>
 					L'upcycling, c'est une nouvelle méthode de recyclage : on crée du neuf
 					avec du vieux, sans pour autant transformer ou déconstruire la matière
 					première que l'on utilise. Ici nous reprenons vos fûts usagés et nous
 					lui redonnons une peau neuve.
 				</p>
-			</div>
+			</div> */}
 			<div className={creationStyle.creation__subsection}>
 				<Prev route="/creation/deco" btnName="Déco" />
 				<div className={creationStyle.creation__subsection__allCards}>
-					<CreationCard
+					{/* <CreationCard
 						img="/images/upcycling.jpg"
 						imgArr={sereniteArray}
 						futTitle={"Serenite"}
@@ -52,6 +58,20 @@ const Art = () => {
 						futTitle="Nao"
 						//futDate="Novembre 2023"
 						futAvailability="Acquis"
+					/> */}
+					<CreationCard
+						img="/images/pleinarisme1.jpg"
+						imgArr={pleinarisme1Array}
+						futTitle="Pleinarisme 01"
+					//futDate="Novembre 2023"
+					//futAvailability="Acquis"
+					/>
+					<CreationCard
+						img="/images/pleinarisme2.jpg"
+						imgArr={pleinarisme2Array}
+						futTitle="Pleinarisme 02"
+					//futDate="Novembre 2023"
+					//futAvailability="Acquis"
 					/>
 				</div>
 				<div></div>
