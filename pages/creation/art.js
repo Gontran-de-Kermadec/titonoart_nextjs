@@ -108,7 +108,7 @@ const Art = () => {
 						img="/images/guadeloupe360.jpg"
 						imgArr={guadeloupe360Array}
 						futTitle={"Guadeloupe 360°"}
-						//futDate="Peinture acrylique - Mai 2024"
+						futDate="Peinture acrylique - Janvier 2025"
 						futDimension="H95cm x ø72cm"
 						futAvailability="Acquis"
 					/>
@@ -116,7 +116,7 @@ const Art = () => {
 						img="/images/dbm.jpg"
 						imgArr={dbmArray}
 						futTitle={"DBM"}
-						//futDate="Peinture acrylique - Mai 2024"
+						futDate="Peinture acrylique - Novembre 2024"
 						futDimension="H95cm x ø72cm"
 						futAvailability="Acquis"
 					/>
