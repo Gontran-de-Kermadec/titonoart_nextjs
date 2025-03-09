@@ -1,6 +1,7 @@
 .creation {
 	padding: 0 0 2rem 0;
 }
+
 .creation__intro,
 .creation__subsection__intro {
 	padding: 0 6rem;
@@ -10,23 +11,30 @@
 	font-size: 1.5rem;
 	margin-bottom: 2rem;
 }
+
 .creation__container {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 	margin-top: 2rem;
 }
+
 .creation__container a {
 	margin: 1rem 2rem;
 }
+
 .creation__card img {
 	height: 400px;
-	width: auto;
+	/* width: auto; */
+	width: 320px;
+	object-fit: cover;
 	/* aspect-ratio: 4/5; */
 }
+
 .creation__card {
 	box-shadow: 5px 5px 10px 3px #606060;
 }
+
 .creation__card button {
 	all: unset;
 	background-color: #ddd;
@@ -37,11 +45,13 @@
 	padding: 0.5rem;
 	transition: all 0.3s;
 }
+
 .creation__card button:hover {
 	background-color: #fff;
 	color: #000;
 	transition: all 0.3s;
 }
+
 .creation__subsection {
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -53,21 +63,28 @@
 	flex-wrap: wrap;
 	margin: 2rem 5rem 0 5rem;
 }
+
 .creation__subsection__card {
 	margin: 0.5rem 1rem;
 }
+
 .creation__subsection figure {
 	position: relative;
 	cursor: pointer;
 }
+
 .creation__subsection figure:hover .figure__svg {
 	opacity: 1;
 }
+
 .creation__subsection img {
 	height: 400px;
-	width: auto;
+	/* width: auto; */
+	width: 320px;
+	object-fit: cover;
 	/* aspect-ratio: 4/5; */
 }
+
 .creation__subsection .figure__svg {
 	position: absolute;
 	top: 50%;
@@ -80,10 +97,12 @@
 	pointer-events: none;
 	transition: opacity 0.5s;
 }
+
 .figure__svg svg {
 	height: 50px;
 	pointer-events: none;
 }
+
 .creation__subsection__lightbox {
 	position: fixed;
 	top: 0;
@@ -93,12 +112,15 @@
 	background-color: rgba(0, 0, 0, 0.65);
 	z-index: 100;
 }
+
 .creation__subsection__lightbox.false {
 	display: none;
 }
+
 .creation__subsection__lightbox.true {
 	display: block;
 }
+
 .creation__subsection__lightbox .carousel {
 	top: 50%;
 	left: 50%;
@@ -107,10 +129,12 @@
 	transform: translate(-50%, -50%);
 	width: 80vw;
 }
+
 .creation__subsection__lightbox .carousel img {
 	width: 80vw;
 	height: auto;
 }
+
 .subcreation__lightbox__close {
 	all: unset;
 	position: absolute;
@@ -122,9 +146,11 @@
 	font-family: "Courgette", cursive;
 	cursor: pointer;
 }
+
 .creation__subsection__availability {
 	font-size: 1rem;
 }
+
 .creation__subsection__availability span {
 	display: inline-block;
 	width: 1rem;
@@ -133,6 +159,7 @@
 	border-radius: 50%;
 	margin: 0 0.5rem;
 }
+
 .creation__subsection__devis {
 	display: none;
 }
@@ -143,46 +170,56 @@
 		height: 360px;
 	}
 }
+
 @media (max-width: 475px) {
 	.creation__card button {
 		background-color: transparent;
 		color: #000;
 		border: solid 1px #000;
 	}
+
 	.subcreation__lightbox__close {
 		right: 0;
 		font-size: 2rem;
 	}
 }
+
 @media (max-width: 600px) {
+
 	.creation__intro,
 	.creation__subsection__intro {
 		padding: 0 1.5rem;
 	}
 }
+
 /*mobile and tablet*/
 @media (max-width: 768px) {
 	.creation__subsection {
 		display: initial;
 	}
+
 	.creation__subsection__lightbox .carousel {
 		width: 95vw;
 	}
+
 	.creation__subsection__lightbox .carousel img {
 		width: 95vw;
 		height: 100vh;
 	}
 }
+
 @media (min-width: 1024px) {
 	.creation__subsection {
 		justify-content: space-between;
 		flex-wrap: unset;
 	}
+
 	.creation__subsection__allCards {
 		display: flex;
 		justify-content: center;
 		flex-wrap: wrap;
 	}
+
 	.creation__subsection__devis {
 		display: block;
 		width: 10rem;
@@ -199,6 +236,8 @@
 @media (min-width: 475px) {
 	.creation__card img {
 		height: 400px;
-		min-width: 320px;
+		/* min-width: 320px; */
+		width: 320px;
+		object-fit: cover;
 	}
 }

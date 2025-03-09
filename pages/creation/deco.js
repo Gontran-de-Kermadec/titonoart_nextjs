@@ -8,8 +8,8 @@ import creationStyle from "../../styles/Creation.module.css";
 const Deco = () => {
 	const navigationInfos = {
 		direction: "both",
-		route: ["/creation/bar", "/creation/upcycling"],
-		btnName: ["Bar", "Upcycling"],
+		route: ["/creation/bar", "/creation/tableau"],
+		btnName: ["Bar", "Tableau"],
 		devis: true,
 	};
 	const papillonArray = [
@@ -124,7 +124,7 @@ const Deco = () => {
 						futAvailability="Acquis"
 					/>
 				</div>
-				<Next route="/creation/upcycling" btnName="Upcycling" />
+				<Next route="/creation/tableau" btnName="Tableau" />
 			</div>
 			<div>
 				<a href="mailto:titonoart@gmail.com">

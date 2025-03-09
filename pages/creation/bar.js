@@ -142,7 +142,7 @@ const Bar = () => {
 						imgArr={flibustierArray}
 						futTitle="CF Flibustier"
 						futDimension="H95cm x ø82cm éclairage LED"
-						futAvailability="Dispo"
+						futAvailability="Disponible"
 					/>
 					<CreationCard
 						img="/images/rougebleu.jpg"

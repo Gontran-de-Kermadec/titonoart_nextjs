@@ -102,7 +102,7 @@ const Art = () => {
 						futTitle={"Florabotanica"}
 						futDate="Peinture acrylique - Février 2025"
 						futDimension="ouverture - éclairage LED"
-						futAvailability="Dispo"
+						futAvailability="Disponible"
 					/>
 					<CreationCard
 						img="/images/guadeloupe360.jpg"
@@ -134,7 +134,7 @@ const Art = () => {
 						futTitle={"La mer pour tous"}
 						futDate="Peinture acrylique - Novembre 2023"
 						futDimension="H95cm x ø72cm"
-						futAvailability="Don"
+						futAvailability="Disponible"
 					/>
 					<CreationCard
 						img="/images/nuptiale.jpg"

@@ -63,15 +63,15 @@ const Art = () => {
 						img="/images/pleinarisme1.jpg"
 						imgArr={pleinarisme1Array}
 						futTitle="Pleinarisme 01"
-					//futDate="Novembre 2023"
-					//futAvailability="Acquis"
+						//futDate="Novembre 2023"
+						futAvailability="Disponible"
 					/>
 					<CreationCard
 						img="/images/pleinarisme2.jpg"
 						imgArr={pleinarisme2Array}
 						futTitle="Pleinarisme 02"
-					//futDate="Novembre 2023"
-					//futAvailability="Acquis"
+						//futDate="Novembre 2023"
+						futAvailability="Disponible"
 					/>
 				</div>
 				<div></div>
