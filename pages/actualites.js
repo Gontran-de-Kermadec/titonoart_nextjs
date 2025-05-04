@@ -49,33 +49,60 @@ function Actualites() {
 					/>
 				</div> */}
 				<div className={actualiteStyle.event_one}>
-					<h2>TitonoArt : Lancement d’une Résidence Artistique Unique avec Nathanaël Koffi à Deshaies</h2>
+					<h2>CONVOYEUR DE COULEURS
+					</h2>
+					<div className={actualiteStyle.kimg}>
+						<Image
+							loader={myLoader}
+							src="/images/convoyeur_logo.jpg"
+							width={225}
+							height={300}
+							className={actualiteStyle.affiche_koffi}
+							alt="affiche evenement residence artistique"
+						/>
+					</div>
 					<div className={actualiteStyle.koffi_event}>
 						<p>
-							Nous avons l’immense plaisir d’annoncer le lancement de notre première résidence artistique à Deshaies, en partenariat avec Air Caraïbes et la Ville de Deshaies. Ce projet marque le début d'une nouvelle dimension pour TitonoArt, avec l’ambition de faire de notre ville un lieu de rencontre artistique, vibrant et inspirant, en plein cœur de la Guadeloupe.
+							Avec Convoyeur de Couleurs, notre objectif est simple : faire de Deshaies un lieu incontournable pour la création artistique. Trois résidences chaque année, trois artistes, trois moments forts pour nous, mais aussi pour tous ceux qui croient en l’art comme moyen de rapprochement et d’échange.
+						</p>
+						<b><p className={actualiteStyle.koffi_event_bold}>Résidences artistiques immersives à Deshaies</p></b>
+						<p>Nous avons le grand plaisir d’annoncer la seconde édition des  résidences artistiques immersives à Deshaies, un projet qui nous tient profondément à cœur. Intitulé "Convoyeur de Couleurs", ce programme vise à faire de Deshaies bien plus qu’un simple lieu d’accueil : un port artistique.
 						</p>
 						<div className={actualiteStyle.koffi_event_img}>
 							<Image
 								loader={myLoader}
-								src="/images/affiche_koffi.png"
+								src="/images/affiche_piment.png"
 								width={450}
 								height={600}
 								className={actualiteStyle.affiche_koffi}
 								alt="affiche evenement residence artistique"
 							/>
 						</div>
-						<b><p className={actualiteStyle.koffi_event_bold}>Inspiré par Deshaies</p></b>
-						<p>Pour cette première résidence, nous accueillons l’artiste parisien Nathanaël Koffi, qui séjournera à Deshaies du 16 au 28 novembre 2024. Plongé dans la beauté et l’authenticité de la ville, Nathanaël a pour mission de capter l’essence de Deshaies et de la transposer dans une œuvre unique, inspirée par ses couleurs, ses paysages, et son âme. Ce projet s’inscrit dans notre vision d’établir Deshaies comme le tout premier “port artistique” au monde, un lieu où l’art rencontre la culture locale pour rayonner bien au-delà de nos frontières.
+						<p>Pourquoi ce nom ? Parce que chaque artiste invité devient un “convoyeur” : il vient, s’imprègne, crée… et repart avec une œuvre inspirée par la lumière, les couleurs et l’âme de Deshaies. Ces œuvres, véritables ambassades, porteront l’esprit de notre ville bien au-delà de ses frontières.</p>
+						<p>Notre ambition ? Faire de Deshaies la commune préférée des artistes, un lieu de résidence et de création, vibrant, authentique, où l’art rencontre la culture locale.</p>
+
+						<b><p className={actualiteStyle.koffi_event_bold}>Artiste invitée : Piment Martin</p></b>
+						<p>Du 13 au 26 mai 2024</p><br />
+						<p>Pour ce premier séjour artistique 2025, c’est Piment Martin qui ouvre le bal.
+							Derrière ce nom, il y a Marion Bègue, une artiste réunionnaise pleine de sensibilité et de force. Elle travaille avec des lignes, des courbes, de la couleur. Beaucoup de couleur. Elle raconte les femmes, les racines, le vivant. Son style est solaire, son univers est riche, généreux et vibrant comme Deshaies.
 						</p>
-						<b><p className={actualiteStyle.koffi_event_bold}>Un Vernissage au Jardin Botanique</p></b>
-						<p>Nous vous invitons à célébrer cette résidence avec nous lors d’un vernissage spécial le 23 novembre, de 17h à 20h, au Jardin Botanique de Deshaies. Cette soirée inédite sera l’occasion de découvrir en avant-première l'œuvre de Nathanaël Koffi et de partager un moment de convivialité avec d’autres passionnés d’art, dans une ambiance musicale et chaleureuse. En exclusivité, un mini-tonneau signé par l’artiste sera mis en jeu lors d’un tirage au sort, offrant aux invités la chance de repartir avec une pièce unique.
+						<br />
+						<p>Elle a accepté de venir passer deux semaines chez nous et surtout de créer une œuvre unique, ici, dans notre atelier.
 						</p>
-						<b><p className={actualiteStyle.koffi_event_bold}>Nos Partenaires et le Soutien de la Communauté</p></b>
-						<p>Ce projet est rendu possible grâce au soutien de Air Caraïbes et de la Ville de Deshaies, qui partagent notre vision de faire de Deshaies une destination artistique d’exception. Avec la participation de nombreux acteurs locaux, chaque résidence est conçue pour faire découvrir notre culture et notre patrimoine aux artistes invités.
-						</p>
-						<b><p className={actualiteStyle.koffi_event_bold}>L’Engagement de TitonoArt</p></b>
-						<p>TitonoArt s’engage à promouvoir l’art contemporain en Guadeloupe et à offrir aux visiteurs une expérience culturelle unique. Trois résidences annuelles sont prévues, chacune accueillant un artiste talentueux qui explorera Deshaies sous un nouvel angle, avec des créations allant des toiles boisées aux tonneaux d’art.
-						</p>
+						<b><p className={actualiteStyle.koffi_event_bold}>Vernissage au Jardin Botanique
+						</p></b>
+						<p>🗓 Samedi 24 mai 2024<br />
+							🕠 De 17h30 à 21h<br />
+							📍 Jardin Botanique de Deshaies
+						</p><br />
+						<p>Nous vous invitons à découvrir le travail de Piment Martin lors d’un vernissage chaleureux et ouvert à tous, dans un cadre exceptionnel. Venez partager ce moment avec nous, découvrir ses œuvres, échanger avec l’artiste et profiter d’une ambiance conviviale. Un mini-tonneau signé par l’artiste sera mis en jeu lors d’un tirage au sort, exclusivement pour les invités présents.</p>
+
+						<b><p className={actualiteStyle.koffi_event_bold}>Nos partenaires
+						</p></b>
+						<p>Ce projet est rendu possible grâce au soutien de :
+							La Région Guadeloupe, la CANBT, la Ville de Deshaies, Air Caraïbes, et le Jardin Botanique de Deshaies.
+						</p><br />
+						<p>Un grand merci à eux de croire en ce rêve collectif. Nous adressons également nos remerciements les plus sincères à l’ensemble des acteurs économiques de Deshaies, commerçants, restaurateurs, hébergeurs et partenaires locaux, qui soutiennent cette initiative avec enthousiasme.</p>
 					</div>
 				</div>
 			</section>

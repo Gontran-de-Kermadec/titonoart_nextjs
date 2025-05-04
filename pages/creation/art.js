@@ -134,7 +134,7 @@ const Art = () => {
 						futTitle={"La mer pour tous"}
 						futDate="Peinture acrylique - Novembre 2023"
 						futDimension="H95cm x ø72cm"
-						futAvailability="Disponible"
+						futAvailability="Don Rotary"
 					/>
 					<CreationCard
 						img="/images/nuptiale.jpg"
