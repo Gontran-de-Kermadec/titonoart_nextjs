@@ -71,7 +71,7 @@ function Actualites() {
 						<div className={actualiteStyle.koffi_event_img}>
 							<Image
 								loader={myLoader}
-								src="/images/affiche_piment.png"
+								src="/images/affiche_seb.png"
 								width={450}
 								height={600}
 								className={actualiteStyle.affiche_koffi}
@@ -81,21 +81,23 @@ function Actualites() {
 						<p>Pourquoi ce nom ? Parce que chaque artiste invité devient un “convoyeur” : il vient, s’imprègne, crée… et repart avec une œuvre inspirée par la lumière, les couleurs et l’âme de Deshaies. Ces œuvres, véritables ambassades, porteront l’esprit de notre ville bien au-delà de ses frontières.</p>
 						<p>Notre ambition ? Faire de Deshaies la commune préférée des artistes, un lieu de résidence et de création, vibrant, authentique, où l’art rencontre la culture locale.</p>
 
-						<b><p className={actualiteStyle.koffi_event_bold}>Artiste invitée : Piment Martin</p></b>
-						<p>Du 13 au 26 mai 2024</p><br />
-						<p>Pour ce premier séjour artistique 2025, c’est Piment Martin qui ouvre le bal.
-							Derrière ce nom, il y a Marion Bègue, une artiste réunionnaise pleine de sensibilité et de force. Elle travaille avec des lignes, des courbes, de la couleur. Beaucoup de couleur. Elle raconte les femmes, les racines, le vivant. Son style est solaire, son univers est riche, généreux et vibrant comme Deshaies.
+						<b><p className={actualiteStyle.koffi_event_bold}>Artiste invitée : Sébastien Arcouet</p></b>
+						<p>🗓 Du 31 juillet au 17 août 2025</p><br />
+						<p>Pour ce deuxième séjour artistique de l’année, c’est <b>Sébastien Arcouet</b> qui s’installe dans notre atelier à Deshaies. Né en 1976, cet artiste peintre passionné de paysages a troqué sa carrière de chimiste pour une vie dédiée à la couleur et à la lumière.
 						</p>
 						<br />
-						<p>Elle a accepté de venir passer deux semaines chez nous et surtout de créer une œuvre unique, ici, dans notre atelier.
+						<p>Son style, instinctif et vibrant, s’appuie sur une palette restreinte dominée par le bleu outremer, des contrastes puissants et des jeux d’ombre intenses. Entre croquis, gouaches et tableaux, il capte l’essence des lieux avec une approche sensible, presque fauve, qui célèbre le mouvement et la beauté du monde.</p>
+						<br />
+						<p>Durant deux semaines, il posera son regard affûté sur Deshaies, ses paysages, sa lumière, ses respirations. Une œuvre unique naîtra ici, inspirée par notre territoire.
 						</p>
+
 						<b><p className={actualiteStyle.koffi_event_bold}>Vernissage au Jardin Botanique
 						</p></b>
-						<p>🗓 Samedi 24 mai 2024<br />
+						<p>🗓 Samedi 16 août 2025<br />
 							🕠 De 17h30 à 21h<br />
 							📍 Jardin Botanique de Deshaies
 						</p><br />
-						<p>Nous vous invitons à découvrir le travail de Piment Martin lors d’un vernissage chaleureux et ouvert à tous, dans un cadre exceptionnel. Venez partager ce moment avec nous, découvrir ses œuvres, échanger avec l’artiste et profiter d’une ambiance conviviale. Un mini-tonneau signé par l’artiste sera mis en jeu lors d’un tirage au sort, exclusivement pour les invités présents.</p>
+						<p>Nous vous invitons à découvrir le travail de Sébastien Arcouet lors d’un vernissage chaleureux dans un cadre exceptionnel. Venez partager ce moment avec nous, échanger avec l’artiste, découvrir son univers, et célébrer ensemble cette parenthèse artistique au cœur de Deshaies.</p>
 
 						<b><p className={actualiteStyle.koffi_event_bold}>Nos partenaires
 						</p></b>
