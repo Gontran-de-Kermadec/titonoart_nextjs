@@ -81,19 +81,19 @@ function Actualites() {
 						<p>Pourquoi ce nom ? Parce que chaque artiste invité devient un “convoyeur” : il vient, s’imprègne, crée… et repart avec une œuvre inspirée par la lumière, les couleurs et l’âme de Deshaies. Ces œuvres, véritables ambassades, porteront l’esprit de notre ville bien au-delà de ses frontières.</p>
 						<p>Notre ambition ? Faire de Deshaies la commune préférée des artistes, un lieu de résidence et de création, vibrant, authentique, où l’art rencontre la culture locale.</p>
 
-						<b><p className={actualiteStyle.koffi_event_bold}>Artiste invitée : Sébastien Arcouet</p></b>
-						<p>🗓 Du 31 juillet au 17 août 2025</p><br />
+						<b><p className={actualiteStyle.koffi_event_bold}>Artiste invité : Sébastien Arcouet</p></b>
+						<p>Du 31 juillet au 17 août 2025</p><br />
 						<p>Pour ce deuxième séjour artistique de l’année, c’est <b>Sébastien Arcouet</b> qui s’installe dans notre atelier à Deshaies. Né en 1976, cet artiste peintre passionné de paysages a troqué sa carrière de chimiste pour une vie dédiée à la couleur et à la lumière.
 						</p>
 						<br />
 						<p>Son style, instinctif et vibrant, s’appuie sur une palette restreinte dominée par le bleu outremer, des contrastes puissants et des jeux d’ombre intenses. Entre croquis, gouaches et tableaux, il capte l’essence des lieux avec une approche sensible, presque fauve, qui célèbre le mouvement et la beauté du monde.</p>
 						<br />
-						<p>Durant deux semaines, il posera son regard affûté sur Deshaies, ses paysages, sa lumière, ses respirations. Une œuvre unique naîtra ici, inspirée par notre territoire.
+						<p>Durant deux semaines, il posera son regard affûté sur Deshaies, ses paysages, sa lumière, ses respirations. Des œuvres uniques naîtront ici, inspirée par notre territoire.
 						</p>
 
 						<b><p className={actualiteStyle.koffi_event_bold}>Vernissage au Jardin Botanique
 						</p></b>
-						<p>🗓 Samedi 16 août 2025<br />
+						<p>    Samedi 16 août 2025<br />
 							🕠 De 17h30 à 21h<br />
 							📍 Jardin Botanique de Deshaies
 						</p><br />

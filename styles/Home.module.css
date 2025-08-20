@@ -1,50 +1,70 @@
 .homepage h1 {
 	margin-bottom: 2rem;
 }
+
 #homepage__sentence {
 	margin: 2rem 0;
 }
+
 .homepage__partenaire p,
 .homepage__partenaire a {
 	margin: 1rem;
 }
+
 .homepage__partenaire p,
 .homepage__contact p {
 	font-size: 1.5em;
 	font-weight: bold;
 }
+
 .homepage__contact {
 	margin: 3rem;
 }
+
 .avent_container {
-    margin: 4em auto;
+	margin: 4em auto;
 	width: 65vw;
 }
+
 .avent_container p {
-    font-weight: bold;
+	font-weight: bold;
 	margin-bottom: 2em;
 }
+
 .avent_container img {
 	width: 30vw;
 	box-shadow: 5px 5px 10px 3px #606060;
 	transition: 0.3s;
 	margin-bottom: 1em;
 }
+
 .avent_container img:hover {
 	transform: scale(1.02);
 }
+
+.avent_container_catalogue {
+	margin: 3em auto;
+}
+
+.avent_container_catalogue p {
+	text-decoration: underline;
+	margin-bottom: 0;
+}
+
 @media (max-width: 425px) {
 	.avent_container img {
 		width: 65vw;
-	}	
+	}
 }
+
 @media (max-width: 425px) {
 	.avent_container img {
 		width: 50vw;
-	}	
+	}
 }
+
 @media (max-width: 425px) {
 	.avent_container img {
 		width: 65vw;
-	}	
+	}
 }

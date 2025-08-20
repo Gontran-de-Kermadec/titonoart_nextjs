@@ -20,15 +20,19 @@ function Home() {
 					<br />Entre tradition et insolite, l'artiste Robin Lepoutre s'imprègne de son île natale.
 				</p>
 				<section className={homeStyle.avent_container}>
-					<p>Artiste invitée à Deshaies en août 2025</p>
-					<a href="https://titonoart.com/actualites/">
-						<img src="images/sebastien_a.jpg" alt="Artiste peintre"></img>
-					</a>
-					{/* <p>Réalisation du Packaging du Calendrier de l'Avent des rhums 2023</p>
-				<a href="https://www.laroutedesrhums.com/fr/tous-nos-rhums/1185-calendrier-de-l-avent-du-rhum-la-route-des-rhums-3770029126018.html" target="__blank">
-						<img src="images/robin_peinture.jpg" alt="Tableau acrylique"></img>
-					</a> */}
-
+					<div>
+						<p>Artiste invité à Deshaies en août 2025</p>
+						<a href="https://titonoart.com/actualites/">
+							<img src="images/sebastien_a.jpg" alt="Artiste peintre"></img>
+						</a>
+					</div>
+					<div className={homeStyle.avent_container_catalogue}>
+						<a href="files/catalogue_arcouet_2025.pdf" download="Catalogue Résidence artistique aout 2025 Sébastien Arcouet.pdf">
+							{/* <p>Je télécharge le Catalogue Résidence artistique aout 2025 Sébastien Arcouet à Deshaies</p> */}
+							<p>JE TÉLÉCHARGE LE CATALOGUE RÉSIDENCE ARTISTIQUE AOUT 2025 SÉBASTIEN ARCOUET A DESHAIES</p>
+							<img src="images/catalogue_photo.jpg" alt="Artiste peintre"></img>
+						</a>
+					</div>
 				</section>
 				<section className={homeStyle.homepage__partenaire}>
 					<p>Où retrouver nos créations</p>
