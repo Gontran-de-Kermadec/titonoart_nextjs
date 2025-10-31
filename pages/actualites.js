@@ -62,16 +62,18 @@ function Actualites() {
 						/>
 					</div>
 					<div className={actualiteStyle.koffi_event}>
-						<p>
-							Avec Convoyeur de Couleurs, notre objectif est simple : faire de Deshaies un lieu incontournable pour la création artistique. Trois résidences chaque année, trois artistes, trois moments forts pour nous, mais aussi pour tous ceux qui croient en l’art comme moyen de rapprochement et d’échange.
-						</p>
 						<b><p className={actualiteStyle.koffi_event_bold}>Résidences artistiques immersives à Deshaies</p></b>
-						<p>Nous avons le grand plaisir d’annoncer la seconde édition des  résidences artistiques immersives à Deshaies, un projet qui nous tient profondément à cœur. Intitulé "Convoyeur de Couleurs", ce programme vise à faire de Deshaies bien plus qu’un simple lieu d’accueil : un port artistique.
+						<p>Nous avons le grand plaisir d’annoncer la quatrième édition des résidences artistiques immersives à Deshaies, un projet qui continue de grandir et de tisser des liens entre artistes, territoire et habitants. Intitulé “Convoyeur de Couleurs”, ce programme vise à faire de Deshaies bien plus qu’un simple lieu d’accueil : un véritable port artistique ouvert sur le monde.</p>
+						<br />
+						<b><p className={actualiteStyle.koffi_event_bold}>Avec Convoyeur de Couleurs</p></b>
+						<p>
+							Notre objectif reste inchangé : <b>faire de Deshaies un lieu incontournable pour la création artistique</b>. Trois résidences chaque année, trois artistes, trois moments forts pour nous, mais aussi pour tous ceux qui croient en l’art comme moyen de rencontre, de partage et d’émotion.
 						</p>
+						<br />
 						<div className={actualiteStyle.koffi_event_img}>
 							<Image
 								loader={myLoader}
-								src="/images/affiche_seb.png"
+								src="/images/affiche_axelle.png"
 								width={450}
 								height={600}
 								className={actualiteStyle.affiche_koffi}
@@ -79,25 +81,29 @@ function Actualites() {
 							/>
 						</div>
 						<p>Pourquoi ce nom ? Parce que chaque artiste invité devient un “convoyeur” : il vient, s’imprègne, crée… et repart avec une œuvre inspirée par la lumière, les couleurs et l’âme de Deshaies. Ces œuvres, véritables ambassades, porteront l’esprit de notre ville bien au-delà de ses frontières.</p>
-						<p>Notre ambition ? Faire de Deshaies la commune préférée des artistes, un lieu de résidence et de création, vibrant, authentique, où l’art rencontre la culture locale.</p>
-
-						<b><p className={actualiteStyle.koffi_event_bold}>Artiste invité : Sébastien Arcouet</p></b>
-						<p>Du 31 juillet au 17 août 2025</p><br />
-						<p>Pour ce deuxième séjour artistique de l’année, c’est <b>Sébastien Arcouet</b> qui s’installe dans notre atelier à Deshaies. Né en 1976, cet artiste peintre passionné de paysages a troqué sa carrière de chimiste pour une vie dédiée à la couleur et à la lumière.
+						<br />
+						<p>Notre ambition ? Faire de Deshaies la commune préférée des artistes, un lieu de résidence et de création vibrant, authentique, où l’art dialogue avec la culture locale et la beauté du territoire Nord Basse Terre.
+						</p>
+						<b><p className={actualiteStyle.koffi_event_bold}>Artiste invité : Axelle Sodade</p></b>
+						<p>Du 6 au 25 novembre 2025</p><br />
+						<p>Pour cette nouvelle édition, nous avons le plaisir d’accueillir <b>Axelle Sodade</b>, artiste peintre originaire de Perpignan, aux racines portugaises profondes. Formée à l’ECV de Bordeaux puis à Kingston University à Londres, elle s’est forgée un univers singulier où la couleur, la lumière et l’émotion s’entrelacent pour donner vie à des compositions vibrantes et poétiques.
 						</p>
 						<br />
-						<p>Son style, instinctif et vibrant, s’appuie sur une palette restreinte dominée par le bleu outremer, des contrastes puissants et des jeux d’ombre intenses. Entre croquis, gouaches et tableaux, il capte l’essence des lieux avec une approche sensible, presque fauve, qui célèbre le mouvement et la beauté du monde.</p>
+						<p>Entrer dans une œuvre de Sodade, c’est plonger dans un monde à la fois familier et fantastique, où chaque ligne, chaque teinte, chaque symbole semble murmurer une histoire. Ses créations mêlent <b>souvenirs d’enfance, visions urbaines et architectures oniriques</b>, formant des cartographies sensibles entre réel et imaginaire.</p>
 						<br />
-						<p>Durant deux semaines, il posera son regard affûté sur Deshaies, ses paysages, sa lumière, ses respirations. Des œuvres uniques naîtront ici, inspirée par notre territoire.
+						<p>Ce qui nous a immédiatement séduits chez elle, c’est sa façon de mettre une âme dans chacune de ses compositions. On ressent sa sensibilité, sa palette vive et sa poésie graphique, mais aussi sa maîtrise des monochromes tranchants et lumineux qui révèlent toute la force de son trait. Même les noms de ses œuvres racontent déjà une histoire, comme une invitation à pénétrer dans son univers.
+						</p>
+						<br />
+						<p>À Deshaies, Axelle viendra explorer les paysages, la lumière et les rencontres humaines pour créer une œuvre nourrie par le territoire et ses habitants dans une démarche de partage, d’écoute et d’échange fidèle à l’esprit de Convoyeur de Couleurs.
 						</p>
 
 						<b><p className={actualiteStyle.koffi_event_bold}>Vernissage au Jardin Botanique
 						</p></b>
-						<p>    Samedi 16 août 2025<br />
+						<p>    Samedi 22 novembre 2025<br />
 							🕠 De 17h30 à 21h<br />
 							📍 Jardin Botanique de Deshaies
 						</p><br />
-						<p>Nous vous invitons à découvrir le travail de Sébastien Arcouet lors d’un vernissage chaleureux dans un cadre exceptionnel. Venez partager ce moment avec nous, échanger avec l’artiste, découvrir son univers, et célébrer ensemble cette parenthèse artistique au cœur de Deshaies.</p>
+						<p>Nous vous invitons à découvrir le travail d’Axelle Sodade lors d’un vernissage convivial dans un cadre d’exception. Venez rencontrer l’artiste, échanger autour de sa démarche et célébrer ensemble Convoyeur de Couleurs, où l’art, la nature et la sensibilité se rencontrent au cœur de Deshaies.</p>
 
 						<b><p className={actualiteStyle.koffi_event_bold}>Nos partenaires
 						</p></b>

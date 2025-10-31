@@ -2,11 +2,6 @@
     margin: 1em 1em 2em 1em;
 }
 
-
-
-/* .actualite .creation__subsection__card {
-    width: 40%;
-} */
 /* #__next > main > div > section.Actualites_actualite__yqVtU > div:nth-child(3) */
 .actualite .photos_expo_container>div {
     width: 90%;
@@ -33,7 +28,6 @@
 }
 
 .medias>div {
-
     margin: 1em 0;
 }
 
@@ -54,6 +48,7 @@
 .koffi_event_bold {
     margin: 1.2em 0;
     text-align: center;
+    font-size: 1.8em;
 }
 
 
@@ -85,6 +80,7 @@
 
     .koffi_event_bold {
         margin: 0.8em 0;
+        font-size: 1.8em;
     }
 }
 

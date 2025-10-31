@@ -21,15 +21,15 @@ function Home() {
 				</p>
 				<section className={homeStyle.avent_container}>
 					<div>
-						<p>Artiste invité à Deshaies en août 2025</p>
+						<p>Artiste invité à Deshaies en novembre 2025</p>
 						<a href="https://titonoart.com/actualites/">
-							<img src="images/sebastien_a.jpg" alt="Artiste peintre"></img>
+							<img src="images/a_sodade.jpg" alt="Artiste peintre"></img>
 						</a>
 					</div>
 					<div className={homeStyle.avent_container_catalogue}>
 						<a href="files/catalogue_arcouet_2025.pdf" download="Catalogue Résidence artistique aout 2025 Sébastien Arcouet.pdf">
-							{/* <p>Je télécharge le Catalogue Résidence artistique aout 2025 Sébastien Arcouet à Deshaies</p> */}
-							<p>JE TÉLÉCHARGE LE CATALOGUE RÉSIDENCE ARTISTIQUE AOUT 2025 SÉBASTIEN ARCOUET A DESHAIES</p>
+							{/* <p>JE TÉLÉCHARGE LE CATALOGUE RÉSIDENCE ARTISTIQUE AOUT 2025 SÉBASTIEN ARCOUET A DESHAIES</p> */}
+							<p>Je télécharge le catalogue résidence artistique août 2025 Sébastien Arcouet à Deshaies</p><br />
 							<img src="images/catalogue_photo.jpg" alt="Artiste peintre"></img>
 						</a>
 					</div>
